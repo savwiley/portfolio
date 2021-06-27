@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
 
@@ -37,6 +39,7 @@ const Header = () => {
         <div id="name">Savannaha Wiley</div>
         <div id="webD"></div>
       </div>
+      <FontAwesomeIcon icon={faChevronDown} className="arrowDwn" />
     </div>
   )
 }

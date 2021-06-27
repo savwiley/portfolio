@@ -3,6 +3,9 @@
 :root {
   --font: 'Oswald', sans-serif;
   --header: 'Fredericka the Great', cursive;
+
+  --ltSea: #0ec7a8;
+  --dkSea: #036656;
 }
 
 * {
@@ -15,7 +18,7 @@
 .header {
   width: 100vw;
   height: 100vh;
-  background: radial-gradient(at center, #0ec7a8, #036656);
+  background: radial-gradient(at center, var(--ltSea), var(--dkSea));
 }
 
 .headerInner {
@@ -25,7 +28,7 @@
   position: relative;
   top: 30vh;
   cursor: default;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px dashed #000;
 }
 
 #name {
@@ -39,4 +42,26 @@
 #webD {
   font-size: 25px;
   text-align: center;
+}
+
+@keyframes arrowBounce {
+  from {bottom: 10px}
+  to {bottom: 20px}
+}
+
+.arrowDwn {
+  color: #fff;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  right: 50%;
+  font-size: 40px;
+  filter: drop-shadow(0px 5px 0px #000);
+  transition: all 0.2s;
+}
+.header:hover .arrowDwn {
+  animation-name: arrowBounce;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
