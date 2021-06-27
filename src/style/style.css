@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Oswald&display=swap');
+
+:root {
+  --font: 'Oswald', sans-serif;
+  --header: 'Fredericka the Great', cursive;
+}
+
+* {
+  margin: 0;
+  font-family: var(--font);
+}
+
+/* HEADER */
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(at center, #0ec7a8, #036656);
+}
+
+.headerInner {
+  display: block;
+  width: fit-content;
+  margin: auto;
+  position: relative;
+  top: 30vh;
+  cursor: default;
+  border-bottom: 1px solid #000;
+}
+
+#name {
+  font-size: 65px;
+  font-family: var(--header);
+  color: #fff;
+  text-shadow: 2px 2px 0px #000;
+  transform: rotate(-5deg);
+}
+
+#webD {
+  font-size: 25px;
+  text-align: center;
+}
