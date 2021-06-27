@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+}
+
+/* HEADER */
+
+.header {
+  background: #03010f;
+  width: 100vw;
+  height: 100vh;
+}
+
+@keyframes bubbleMove {
+  0% {background: red; top: 0px; left: 0px;}
+  25% {background: orange; top: 25%; left: 40vw;}
+  50% {background: yellow; top: 50%; left: 80vw;}
+  75% {background: green; top: 75%; left: 70vw;}
+  100% {background: blue; top: 100%; left: 20vw;}
+}
+
+.bubble {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: pink;
+  position: absolute;
+  overflow: hidden;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+#bubble1 {
+  animation-name: bubbleMove;
+}
