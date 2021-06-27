@@ -13,12 +13,33 @@
   font-family: var(--font);
 }
 
+body {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px #000;
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--ltSea);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--dkSea);
+}
+
 /* HEADER */
 
 .header {
   width: 100vw;
   height: 100vh;
+  position: relative;
   background: radial-gradient(at center, var(--ltSea), var(--dkSea));
+  box-shadow: -2px 3px 4px rgba(0,0,0,0.8);
+  z-index: 1;
 }
 
 .headerInner {
@@ -64,4 +85,14 @@
   animation-duration: 0.5s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+}
+
+/* BLURB */
+
+.blurb {
+  background: #fff;
+  width: 100vw;
+  height: 50vh;
+  position: relative;
+  z-index: 0;
 }
