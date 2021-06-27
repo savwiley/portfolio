@@ -6,6 +6,8 @@ function App() {
   return (
     <>
       <Header />
+
+      <div className="blurb"></div>
     </>
   );
 }
