@@ -33,9 +33,8 @@
 .header {
   height: 100vh;
   position: relative;
-  background: url("https://www.transparenttextures.com/patterns/escheresque-dark.png"), radial-gradient(at center, var(--ltSea), var(--dkSea));
-  box-shadow: 0px 3px 4px rgba(0,0,0,0.8);
-  z-index: 1;
+  background: url("https://www.transparenttextures.com/patterns/escheresque-dark.png") fixed, radial-gradient(at center, var(--ltSea), var(--dkSea));
+  z-index: 0;
 }
 
 .headerInner {
@@ -87,8 +86,9 @@
   background: #fff;
   padding: 50px 0;
   text-align: center;
+  box-shadow: 0px 3px 4px rgba(0,0,0,0.8), 0px -3px 4px rgba(0,0,0,0.8);
   position: relative;
-  z-index: 0;
+  z-index: 1;
 }
 
 .git {
@@ -106,4 +106,21 @@
   width: 80vw;
   margin: 0 auto 20px;
   text-align: justify;
+  cursor: default;
+}
+
+/* PROJECTS */
+
+.languages {
+  background: url("https://www.transparenttextures.com/patterns/escheresque-dark.png") fixed, radial-gradient(at center, var(--ltSea), var(--dkSea));
+  padding: 50px;
+  position: relative;
+  z-index: 0;
+}
+
+.sect {
+  color: #fff;
+  font-family: var(--header);
+  text-shadow: 2px 2px 0px #000;
+  font-size: 40px;
 }
