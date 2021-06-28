@@ -4,20 +4,11 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
 
-  //header gradient moves with mouse
-  useEffect(() => {
-    const header = document.querySelector(".header");
-    header.addEventListener("mousemove", (e) => {
-      const X = e.clientX / window.innerWidth * 100;
-      const Y = e.clientY / window.innerHeight * 100;
-      header.style.background = `url("https://www.transparenttextures.com/patterns/escheresque-dark.png"), radial-gradient(at ${X}% ${Y}%, #0ec7a8, #036656)`;
-    });
-  })
-
   //profession title changes
   useEffect(() => {
     const profession = document.querySelector("#webD");
     profession.textContent = "Web Developer";
+    //consider changing to case/switch
     const change = () => {
       let content = profession.textContent;
       if (content === "Web Developer") {
@@ -34,7 +25,7 @@ const Header = () => {
   })
 
   return (
-    <div className="header">
+    <div className="header interactive">
       <div className="headerInner">
         <div id="name">Savannaha Wiley</div>
         <div id="webD"></div>
