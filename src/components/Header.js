@@ -10,7 +10,7 @@ const Header = () => {
     header.addEventListener("mousemove", (e) => {
       const X = e.clientX / window.innerWidth * 100;
       const Y = e.clientY / window.innerHeight * 100;
-      header.style.background = `radial-gradient(at ${X}% ${Y}%, #0ec7a8, #036656)`;
+      header.style.background = `url("https://www.transparenttextures.com/patterns/escheresque-dark.png"), radial-gradient(at ${X}% ${Y}%, #0ec7a8, #036656)`;
     });
   })
 
