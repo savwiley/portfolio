@@ -5,16 +5,13 @@
   --header: 'Fredericka the Great', cursive;
 
   --ltSea: #0ec7a8;
+  --mdSea: #018f77;
   --dkSea: #036656;
 }
 
 * {
   margin: 0;
   font-family: var(--font);
-}
-
-body {
-  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -34,11 +31,10 @@ body {
 /* HEADER */
 
 .header {
-  width: 100vw;
   height: 100vh;
   position: relative;
-  background: radial-gradient(at center, var(--ltSea), var(--dkSea));
-  box-shadow: -2px 3px 4px rgba(0,0,0,0.8);
+  background: url("https://www.transparenttextures.com/patterns/escheresque-dark.png"), radial-gradient(at center, var(--ltSea), var(--dkSea));
+  box-shadow: 0px 3px 4px rgba(0,0,0,0.8);
   z-index: 1;
 }
 
@@ -69,13 +65,11 @@ body {
   from {bottom: 10px}
   to {bottom: 20px}
 }
-
 .arrowDwn {
   color: #fff;
   position: absolute;
   bottom: 10px;
-  left: 50%;
-  right: 50%;
+  left: 48vw;
   font-size: 40px;
   filter: drop-shadow(0px 5px 0px #000);
   transition: all 0.2s;
@@ -91,8 +85,25 @@ body {
 
 .blurb {
   background: #fff;
-  width: 100vw;
-  height: 50vh;
+  padding: 50px 0;
+  text-align: center;
   position: relative;
   z-index: 0;
+}
+
+.git {
+  font-size: 60px;
+  color: var(--dkSea);
+  filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.4));
+  transition: all 1s;
+}
+.git:hover {
+  color: var(--mdSea);
+}
+
+#piece {
+  display: block;
+  width: 80vw;
+  margin: 0 auto 20px;
+  text-align: justify;
 }
