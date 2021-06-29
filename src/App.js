@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import ReactTooltip from "react-tooltip";
 import Header from "./components/Header.js";
 import Languages from "./components/Languages.js";
+import Projects from "./components/Projects.js";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
@@ -25,6 +26,7 @@ function App() {
         backgroundColor="#036656" 
         arrowColor="transparent"
         place="right" />
+
       <Header />
 
       <div className="blurb">
@@ -33,11 +35,13 @@ function App() {
         </div>
 
         <a href="https://github.com/savwiley" alt="Github" data-tip="Github">
-          <FontAwesomeIcon icon={faGithub} className="git" />
+          <FontAwesomeIcon icon={faGithub} className="github" />
         </a>
       </div>
 
       <Languages />
+
+      <Projects />
     </>
   );
 }
