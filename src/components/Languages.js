@@ -107,17 +107,3 @@ const Languages = () => {
 }
 
 export default Languages;
-
-/**
- * LANGUAGES
- * html, css, js, jsx, php
- * 
- * FRONTEND
- * webpack, react
- * 
- * BACKEND
- * firebase, heroku?
- * 
- * MISC
- * vscode, npm, yarn, git, jasmine, jest
- */
