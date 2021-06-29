@@ -1,7 +1,22 @@
-import React, { useEffect } from "react";
+import React, { useRef, useEffect } from "react";
 import simpleIcons from "simple-icons";
 
 const Languages = () => {
+  const htmlIcon = useRef(simpleIcons.Get('html5').svg);
+  const cssIcon = useRef(simpleIcons.Get('css3').svg);
+  const jsIcon = useRef(simpleIcons.Get('javascript').svg);
+  const phpIcon = useRef(simpleIcons.Get('php').svg);
+  const webpackIcon = useRef(simpleIcons.Get('webpack').svg);
+  const reactIcon = useRef(simpleIcons.Get('react').svg);
+  const reactRIcon = useRef(simpleIcons.Get('reactrouter').svg);
+  const firebaseIcon = useRef(simpleIcons.Get('firebase').svg);
+  const herokuIcon = useRef(simpleIcons.Get('heroku').svg);
+  const vscodeIcon = useRef(simpleIcons.Get('visualstudiocode').svg);
+  const npmIcon = useRef(simpleIcons.Get('npm').svg);
+  const yarnIcon = useRef(simpleIcons.Get('yarn').svg);
+  const gitIcon = useRef(simpleIcons.Get('git').svg);
+  const jasmineIcon = useRef(simpleIcons.Get('jasmine').svg);
+  const jestIcon = useRef(simpleIcons.Get('jest').svg);
   
   useEffect(() => {
     //DOMS
@@ -25,47 +40,26 @@ const Languages = () => {
     const jasmine = document.querySelector("#jasmine");
     const jest = document.querySelector("#jest");
 
-    //ICONS
-    //language
-    const htmlIcon = simpleIcons.Get('html5');
-    const cssIcon = simpleIcons.Get('css3');
-    const jsIcon = simpleIcons.Get('javascript');
-    const phpIcon = simpleIcons.Get('php');
-    //frontend
-    const webpackIcon = simpleIcons.Get('webpack');
-    const reactIcon = simpleIcons.Get('react');
-    const reactRIcon = simpleIcons.Get('reactrouter');
-    //backend
-    const firebaseIcon = simpleIcons.Get('firebase');
-    const herokuIcon = simpleIcons.Get('heroku');
-    //misc
-    const vscodeIcon = simpleIcons.Get('visualstudiocode');
-    const npmIcon = simpleIcons.Get('npm');
-    const yarnIcon = simpleIcons.Get('yarn');
-    const gitIcon = simpleIcons.Get('git');
-    const jasmineIcon = simpleIcons.Get('jasmine');
-    const jestIcon = simpleIcons.Get('jest');
-
     //PLACEMENT
     //languages
-    html.innerHTML = htmlIcon.svg;
-    css.innerHTML = cssIcon.svg;
-    js.innerHTML = jsIcon.svg;
-    php.innerHTML = phpIcon.svg;
+    html.innerHTML = htmlIcon.current;
+    css.innerHTML = cssIcon.current;
+    js.innerHTML = jsIcon.current;
+    php.innerHTML = phpIcon.current;
     //frontend
-    webpack.innerHTML = webpackIcon.svg;
-    react.innerHTML = reactIcon.svg;
-    reactRoute.innerHTML = reactRIcon.svg;
+    webpack.innerHTML = webpackIcon.current;
+    react.innerHTML = reactIcon.current;
+    reactRoute.innerHTML = reactRIcon.current;
     //backend
-    firebase.innerHTML = firebaseIcon.svg;
-    heroku.innerHTML = herokuIcon.svg;
+    firebase.innerHTML = firebaseIcon.current;
+    heroku.innerHTML = herokuIcon.current;
     //misc
-    vscode.innerHTML = vscodeIcon.svg;
-    npm.innerHTML = npmIcon.svg;
-    yarn.innerHTML = yarnIcon.svg;
-    git.innerHTML = gitIcon.svg;
-    jasmine.innerHTML = jasmineIcon.svg;
-    jest.innerHTML = jestIcon.svg;
+    vscode.innerHTML = vscodeIcon.current;
+    npm.innerHTML = npmIcon.current;
+    yarn.innerHTML = yarnIcon.current;
+    git.innerHTML = gitIcon.current;
+    jasmine.innerHTML = jasmineIcon.current;
+    jest.innerHTML = jestIcon.current;
   })
 
 
