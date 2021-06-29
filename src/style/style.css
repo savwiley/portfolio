@@ -95,6 +95,7 @@
   font-size: 60px;
   color: var(--dkSea);
   filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.4));
+  pointer-events: all !important;
   transition: all 1s;
 }
 .git:hover {
@@ -115,12 +116,77 @@
   background: url("https://www.transparenttextures.com/patterns/escheresque-dark.png") fixed, radial-gradient(at center, var(--ltSea), var(--dkSea));
   padding: 50px;
   position: relative;
+  text-align: center;
   z-index: 0;
 }
 
 .sect {
   color: #fff;
+  width: 35vw;
+  margin: 0 auto 10px;
   font-family: var(--header);
   text-shadow: 2px 2px 0px #000;
   font-size: 40px;
+  border-bottom: 1px dashed;
+  cursor: default;
+}
+
+.sectDiv div {
+  display: inline-block;
+  margin-right: 15px;
+}
+.sectDiv div:last-child {
+  margin-right: 0;
+}
+
+svg {
+  width: 45px;
+  pointer-events: none;
+  margin-bottom: 10px;
+  filter: drop-shadow(1px 1px 1px #000);
+}
+#html {
+  fill: #e66b06;
+}
+#css {
+  fill: #008cff;
+}
+#js {
+  fill: #ffff6c;
+}
+#php {
+  fill: #8f63d6;
+}
+#webpack {
+  fill: #2862ff;
+}
+#react {
+  fill: #64edff;
+}
+#reactroute {
+  fill: #b92b2b;
+}
+#firebase {
+  fill: #ffa500;
+}
+#heroku {
+  fill: #8f45a5;
+}
+#vscode {
+  fill: #006eff;
+}
+#npm {
+  fill: #c53737;
+}
+#yarn {
+  fill: #4a99e2;
+}
+#git {
+  fill: #db4a30;
+}
+#jasmine {
+  fill: #9b519b;
+}
+#jest {
+  fill: #db4d34;
 }

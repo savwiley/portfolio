@@ -23,7 +23,8 @@ function App() {
     <>
       <ReactTooltip 
         backgroundColor="#036656" 
-        arrowColor="transparent" />
+        arrowColor="transparent"
+        place="right" />
       <Header />
 
       <div className="blurb">
