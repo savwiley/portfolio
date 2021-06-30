@@ -13,22 +13,22 @@ const Projects = () => {
   return(
     <div className="projects">
 
-      <div className="proj">
-        <div className="pic">hi</div>
+      <div className="proj waldo">
+        <div className="pic"></div>
         <div className="desc">
           <div>Where's Waldo?</div>
           <div>Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project.</div>
           <div>
-            <span className="js" 
+            <span className="js" data-tip="JavaScript" 
             dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(jsIcon.current)}} 
             />
-            <span className="react" 
+            <span className="react" data-tip="React" 
             dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(reactIcon.current)}} 
             />
-            <span className="reactroute" 
+            <span className="reactroute" data-tip="React-Router" 
             dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(reactRIcon.current)}} 
             />
-            <span className="firebase" 
+            <span className="firebase" data-tip="Firebase" 
             dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(firebaseIcon.current)}} 
             />
           </div>
@@ -39,21 +39,21 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="proj">
+      <div className="proj battleship">
       <div className="desc">
           <div>Battleship</div>
           <div>Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project.</div>
           <div>
-            <span className="js" 
+            <span className="js" data-tip="JavaScript" 
             dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(jsIcon.current)}} 
             />
-            <span className="react" 
+            <span className="react" data-tip="React" 
             dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(reactIcon.current)}} 
             />
-            <span className="reactroute" 
+            <span className="reactroute" data-tip="React-Router" 
             dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(reactRIcon.current)}} 
             />
-            <span className="jest" 
+            <span className="jest" data-tip="Jest" 
             dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(jestIcon.current)}} 
             />
           </div>
@@ -62,22 +62,22 @@ const Projects = () => {
             <a href="https://savwiley.github.io/battleship/">Live Preview</a>
           </div>
         </div>
-        <div className="pic">hey</div>
+        <div className="pic"></div>
       </div>
 
-      <div className="proj">
-        <div className="pic">hi</div>
+      <div className="proj cart">
+        <div className="pic"></div>
         <div className="desc">
           <div>Mock Retail Site</div>
           <div>Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project.</div>
           <div>
-            <span className="js" 
+            <span className="js" data-tip="JavaScript" 
             dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(jsIcon.current)}} 
             />
-            <span className="react" 
+            <span className="react" data-tip="React" 
             dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(reactIcon.current)}} 
             />
-            <span className="reactroute" 
+            <span className="reactroute" data-tip="React-Router" 
             dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(reactRIcon.current)}} 
             />
           </div>
@@ -88,15 +88,15 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="proj">
+      <div className="proj memory">
       <div className="desc">
           <div>Memory Game</div>
           <div>Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project.</div>
           <div>
-            <span className="js" 
+            <span className="js" data-tip="JavaScript" 
             dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(jsIcon.current)}} 
             />
-            <span className="react" 
+            <span className="react" data-tip="React" 
             dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(reactIcon.current)}} 
             />
           </div>
@@ -105,22 +105,22 @@ const Projects = () => {
             <a href="https://savwiley.github.io/memoryCard/">Live Preview</a>
           </div>
         </div>
-        <div className="pic">hey</div>
+        <div className="pic"></div>
       </div>
 
-      <div className="proj">
-        <div className="pic">hi</div>
+      <div className="proj library">
+        <div className="pic"></div>
         <div className="desc">
           <div>The Library</div>
           <div>Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project.</div>
           <div>
-            <span className="js" 
+            <span className="js" data-tip="JavaScript" 
             dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(jsIcon.current)}} 
             />
-            <span className="webpack" 
+            <span className="webpack" data-tip="webpack" 
             dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(webpackIcon.current)}} 
             />
-            <span className="firebase" 
+            <span className="firebase" data-tip="Firebase" 
             dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(firebaseIcon.current)}} 
             />
           </div>
@@ -131,15 +131,15 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="proj">
+      <div className="proj todos">
       <div className="desc">
           <div>To-Do List</div>
           <div>Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project.</div>
           <div>
-            <span className="js" 
+            <span className="js" data-tip="JavaScript" 
             dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(jsIcon.current)}} 
             />
-            <span className="webpack" 
+            <span className="webpack" data-tip="webpack" 
             dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(webpackIcon.current)}} 
             />
           </div>
@@ -148,19 +148,19 @@ const Projects = () => {
             <a href="https://savwiley.github.io/todos/dist/">Live Preview</a>
           </div>
         </div>
-        <div className="pic">hey</div>
+        <div className="pic"></div>
       </div>
 
-      <div className="proj">
-        <div className="pic">hi</div>
+      <div className="proj weather">
+        <div className="pic"></div>
         <div className="desc">
           <div>Weather App</div>
           <div>Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project.</div>
           <div>
-            <span className="js" 
+            <span className="js" data-tip="JavaScript" 
             dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(jsIcon.current)}} 
             />
-            <span className="webpack" 
+            <span className="webpack" data-tip="webpack" 
             dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(webpackIcon.current)}} 
             />
           </div>

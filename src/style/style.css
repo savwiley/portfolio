@@ -4,6 +4,7 @@
   --font: 'Oswald', sans-serif;
   --header: 'Fredericka the Great', cursive;
 
+  --ltrSea: #00ffd5;
   --ltSea: #0ec7a8;
   --mdSea: #018f77;
   --dkSea: #036656;
@@ -101,7 +102,7 @@
   transition: all 1s;
 }
 .github:hover {
-  color: var(--mdSea);
+  color: var(--ltSea);
 }
 
 #piece {
@@ -217,6 +218,7 @@ svg {
   margin: 0 auto 40px;
   border-radius: 25px;
   overflow: hidden;
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.4);
 }
 
 .pic {
@@ -253,7 +255,11 @@ svg {
 
 .desc svg {
   width: 30px;
-  margin: 15px 5px 15px 0;
+  margin-right: 10px;
+}
+.desc span {
+  display: inline-block;
+  height: 30px;
 }
 
 .desc div:nth-child(4) {
@@ -263,10 +269,34 @@ svg {
 .desc a {
   width: 50%;
   color: var(--ltSea);
+  font-size: 20px;
   text-decoration: none;
   text-shadow: 1px 1px 0px #000;
   transition: all 0.5s;
 }
 .desc a:hover {
-  letter-spacing: 2px;
+  letter-spacing: 3px;
+  color: var(--ltrSea);
+}
+
+.waldo:hover > .pic {
+  background: center/cover url("../images/waldo.gif");
+}
+.battleship:hover > .pic {
+  background: center/cover url("../images/battleship.gif");
+}
+.cart:hover > .pic {
+  background: center/cover url("../images/shoppingCart.gif");
+}
+.memory:hover > .pic {
+  background: center/cover url("../images/memCard.gif");
+}
+.library:hover > .pic {
+  background: center/cover url("../images/library.gif");
+}
+.todos:hover > .pic {
+  background: center/cover url("../images/todo.gif");
+}
+.weather:hover > .pic {
+  background: center/cover url("../images/weather.gif");
 }
