@@ -1,15 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Oswald&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Oswald&display=swap");
 
 :root {
-  --font: 'Oswald', sans-serif;
-  --header: 'Fredericka the Great', cursive;
+  --font: "Oswald", sans-serif;
+  --header: "Fredericka the Great", cursive;
 
   --ltrSea: #00ffd5;
   --ltSea: #0ec7a8;
   --mdSea: #018f77;
   --dkSea: #036656;
 
-  --background: url("https://www.transparenttextures.com/patterns/escheresque-dark.png") fixed, radial-gradient(at center, var(--ltSea), var(--dkSea));
+  --background: url("https://www.transparenttextures.com/patterns/escheresque-dark.png")
+      fixed,
+    radial-gradient(at center, var(--ltSea), var(--dkSea));
 }
 
 * {
@@ -64,8 +66,12 @@
 }
 
 @keyframes arrowBounce {
-  from {bottom: 10px}
-  to {bottom: 20px}
+  from {
+    bottom: 10px;
+  }
+  to {
+    bottom: 20px;
+  }
 }
 .arrowDwn {
   color: #fff;
@@ -89,7 +95,7 @@
   background: #fff;
   padding: 50px 0;
   text-align: center;
-  box-shadow: 0px 3px 4px rgba(0,0,0,0.8), 0px -3px 4px rgba(0,0,0,0.8);
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.8), 0px -3px 4px rgba(0, 0, 0, 0.8);
   position: relative;
   z-index: 1;
 }
@@ -97,7 +103,7 @@
 .github {
   font-size: 60px;
   color: var(--dkSea);
-  filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.4));
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.4));
   pointer-events: all !important;
   transition: all 1s;
 }
@@ -154,49 +160,60 @@ svg {
   margin-bottom: 10px;
   filter: drop-shadow(1px 1px 1px #000);
 }
-#html, .html {
+#html,
+.html {
   fill: #e66b06;
 }
-#css, .css {
+#css,
+.css {
   fill: #008cff;
 }
-#js, .js {
+#js,
+.js {
   fill: #ffff6c;
 }
 #php {
   fill: #8f63d6;
 }
-#webpack, .webpack {
+#webpack,
+.webpack {
   fill: #2862ff;
 }
-#react, .react {
+#react,
+.react {
   fill: #64edff;
 }
-#reactroute, .reactroute {
+#reactroute,
+.reactroute {
   fill: #b92b2b;
 }
-#firebase, .firebase {
+#firebase,
+.firebase {
   fill: #ffa500;
 }
 #heroku {
   fill: #8f45a5;
 }
-#vscode, .vscode {
+#vscode,
+.vscode {
   fill: #006eff;
 }
-#npm, .npm {
+#npm,
+.npm {
   fill: #c53737;
 }
 #yarn {
   fill: #4a99e2;
 }
-#git, .git {
+#git,
+.git {
   fill: #db4a30;
 }
 #jasmine {
   fill: #9b519b;
 }
-#jest, .jest {
+#jest,
+.jest {
   fill: #db4d34;
 }
 #prettier {
@@ -211,7 +228,7 @@ svg {
 .projects {
   background: #fff;
   padding: 50px 0;
-  box-shadow: 0px 3px 4px rgba(0,0,0,0.8), 0px -3px 4px rgba(0,0,0,0.8);
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.8), 0px -3px 4px rgba(0, 0, 0, 0.8);
   position: relative;
   z-index: 1;
 }
@@ -224,7 +241,7 @@ svg {
   margin: 0 auto 40px;
   border-radius: 25px;
   overflow: hidden;
-  box-shadow: 0px 0px 4px rgba(0,0,0,0.4);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
 }
 
 .pic {

@@ -1,9 +1,8 @@
 import React, { useEffect } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
-
   //profession title changes
   useEffect(() => {
     const profession = document.querySelector("#webD");
@@ -20,9 +19,9 @@ const Header = () => {
       } else if (content === "UI/UX Designer") {
         profession.textContent = "Web Developer";
       }
-    }
+    };
     setInterval(change, 1000);
-  })
+  });
 
   return (
     <div className="header interactive">
@@ -32,7 +31,7 @@ const Header = () => {
       </div>
       <FontAwesomeIcon icon={faChevronDown} className="arrowDwn" />
     </div>
-  )
-}
+  );
+};
 
 export default Header;
