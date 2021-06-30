@@ -25,7 +25,7 @@ function App() {
       <ReactTooltip 
         backgroundColor="#036656" 
         arrowColor="transparent"
-        place="right" />
+        place="top" />
 
       <Header />
 
