@@ -1,5 +1,6 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef } from "react";
 import simpleIcons from "simple-icons";
+import DOMPurify from "dompurify";
 
 const Languages = () => {
   const htmlIcon = useRef(simpleIcons.Get('html5').svg);
@@ -17,84 +18,85 @@ const Languages = () => {
   const gitIcon = useRef(simpleIcons.Get('git').svg);
   const jasmineIcon = useRef(simpleIcons.Get('jasmine').svg);
   const jestIcon = useRef(simpleIcons.Get('jest').svg);
-  
-  useEffect(() => {
-    //DOMS
-    //language
-    const html = document.querySelector("#html");
-    const css = document.querySelector("#css");
-    const js = document.querySelector("#js");
-    const php = document.querySelector("#php");
-    //frontend
-    const webpack = document.querySelector("#webpack");
-    const react = document.querySelector("#react");
-    const reactRoute = document.querySelector("#reactroute");
-    //backend
-    const firebase = document.querySelector("#firebase");
-    const heroku = document.querySelector("#heroku");
-    //misc
-    const vscode = document.querySelector("#vscode");
-    const npm = document.querySelector("#npm");
-    const yarn = document.querySelector("#yarn");
-    const git = document.querySelector("#git");
-    const jasmine = document.querySelector("#jasmine");
-    const jest = document.querySelector("#jest");
-
-    //PLACEMENT
-    //languages
-    html.innerHTML = htmlIcon.current;
-    css.innerHTML = cssIcon.current;
-    js.innerHTML = jsIcon.current;
-    php.innerHTML = phpIcon.current;
-    //frontend
-    webpack.innerHTML = webpackIcon.current;
-    react.innerHTML = reactIcon.current;
-    reactRoute.innerHTML = reactRIcon.current;
-    //backend
-    firebase.innerHTML = firebaseIcon.current;
-    heroku.innerHTML = herokuIcon.current;
-    //misc
-    vscode.innerHTML = vscodeIcon.current;
-    npm.innerHTML = npmIcon.current;
-    yarn.innerHTML = yarnIcon.current;
-    git.innerHTML = gitIcon.current;
-    jasmine.innerHTML = jasmineIcon.current;
-    jest.innerHTML = jestIcon.current;
-  })
-
+  const prettierIcon = useRef(simpleIcons.Get('prettier').svg);
+  const eslintIcon = useRef(simpleIcons.Get('eslint').svg);
 
   return(
     <div className="languages interactive">
 
       <div className="sect">Languages</div>
       <div className="sectDiv">
-        <div id="html" data-tip="HTML5"></div>
-        <div id="css" data-tip="CSS3"></div>
-        <div id="js" data-tip="JavaScript"></div>
-        <div id="php" data-tip="PHP"></div>
+        <div id="html" data-tip="HTML5" 
+          dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(htmlIcon.current)}} 
+        />
+        <div id="css" data-tip="CSS3" 
+          dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(cssIcon.current)}} 
+        />
+        <div id="js" data-tip="JavaScript" 
+          dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(jsIcon.current)}} 
+        />
+        <div id="php" data-tip="PHP" 
+          dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(phpIcon.current)}} 
+        />
       </div>
 
       <div className="sect">Front-End</div>
       <div className="sectDiv">
-        <div id="webpack" data-tip="webpack"></div>
-        <div id="react" data-tip="React"></div>
-        <div id="reactroute" data-tip="React-Router"></div>
+        <div id="webpack" data-tip="webpack" 
+          dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(webpackIcon.current)}} 
+        />
+        <div id="react" data-tip="React" 
+          dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(reactIcon.current)}} 
+        />
+        <div id="reactroute" data-tip="React-Router" 
+          dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(reactRIcon.current)}} 
+        />
       </div>
 
       <div className="sect">Back-End</div>
       <div className="sectDiv">
-        <div id="firebase" data-tip="Firebase"></div>
-        <div id="heroku" data-tip="Heroku"></div>
+        <div id="firebase" data-tip="Firebase" 
+          dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(firebaseIcon.current)}} 
+        />
+        <div id="heroku" data-tip="Heroku" 
+          dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(herokuIcon.current)}} 
+        />
+      </div>
+
+      <div className="sect">Testing</div>
+      <div className="sectDiv">
+        <div id="jasmine" data-tip="Jasmine" 
+          dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(jasmineIcon.current)}} 
+        />
+        <div id="jest" data-tip="Jest" 
+          dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(jestIcon.current)}} 
+        />
+      </div>
+
+      <div className="sect">Formating</div>
+      <div className="sectDiv">
+        <div id="prettier" data-tip="Prettier" 
+          dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(prettierIcon.current)}} 
+        />
+        <div id="eslint" data-tip="ESLint" 
+          dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(eslintIcon.current)}} 
+        />
       </div>
 
       <div className="sect">Misc.</div>
       <div className="sectDiv">
-        <div id="vscode" data-tip="VSCode"></div>
-        <div id="npm" data-tip="npm"></div>
-        <div id="yarn" data-tip="yarn"></div>
-        <div id="git" data-tip="Git"></div>
-        <div id="jasmine" data-tip="Jasmine"></div>
-        <div id="jest" data-tip="Jest"></div>
+        <div id="vscode" data-tip="VSCode" 
+          dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(vscodeIcon.current)}} 
+        />
+        <div id="npm" data-tip="npm" 
+          dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(npmIcon.current)}} 
+        />
+        <div id="yarn" data-tip="yarn" 
+          dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(yarnIcon.current)}} 
+        />
+        <div id="git" data-tip="Git" 
+          dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(gitIcon.current)}} 
+        />
       </div>
     </div>
   )
