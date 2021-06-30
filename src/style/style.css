@@ -192,6 +192,12 @@ svg {
 #jest, .jest {
   fill: #db4d34;
 }
+#prettier {
+  fill: #adadad;
+}
+#eslint {
+  fill: #4609a8;
+}
 
 /* PROJECTS */
 
