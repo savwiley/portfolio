@@ -131,28 +131,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="proj todos">
-      <div className="desc">
-          <div>To-Do List</div>
-          <div>Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project.</div>
-          <div>
-            <span className="js" data-tip="JavaScript" 
-            dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(jsIcon.current)}} 
-            />
-            <span className="webpack" data-tip="webpack" 
-            dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(webpackIcon.current)}} 
-            />
-          </div>
-          <div>
-            <a href="https://github.com/savwiley/todos">GitHub</a>
-            <a href="https://savwiley.github.io/todos/dist/">Live Preview</a>
-          </div>
-        </div>
-        <div className="pic"></div>
-      </div>
-
       <div className="proj weather">
-        <div className="pic"></div>
         <div className="desc">
           <div>Weather App</div>
           <div>Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project. Where's Waldo-espue game with high scores table & three difficulties. TOP project.</div>
@@ -169,6 +148,7 @@ const Projects = () => {
             <a href="https://savwiley.github.io/weather/dist/">Live Preview</a>
           </div>
         </div>
+        <div className="pic"></div>
       </div>
 
     </div>
