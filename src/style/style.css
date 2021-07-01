@@ -368,7 +368,26 @@ svg {
 }
 
 .exBlurb {
+  width: 60%;
+  flex-direction: column;
   padding-left: 20px;
   text-shadow: 1px 1px 0px #000;
   cursor: default;
+}
+h1 {
+  font-family: var(--header);
+  font-weight: normal;
+  text-shadow: 2px 2px 0px #000;
+}
+.exBlurb span {
+  font-size: 15px;
+}
+.exBlurb a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+.exBlurb a:hover {
+  color: var(--ltrSea);
 }
