@@ -13,7 +13,7 @@ const Projects = () => {
   return (
     <div className="projects">
       <div className="proj waldo">
-        <div className="pic"></div>
+        <div className="pic" alt="GIF of Where's Waldo-esque game featuring various pop culture characters."></div>
         <div className="desc">
           <div>Where's Waldo?</div>
           <div>
@@ -33,6 +33,7 @@ const Projects = () => {
               dangerouslySetInnerHTML={{
                 __html: DOMPurify.sanitize(jsIcon.current),
               }}
+              alt="JavaScript"
             />
             <span
               className="react"
@@ -40,6 +41,7 @@ const Projects = () => {
               dangerouslySetInnerHTML={{
                 __html: DOMPurify.sanitize(reactIcon.current),
               }}
+              alt="React"
             />
             <span
               className="reactroute"
@@ -47,6 +49,7 @@ const Projects = () => {
               dangerouslySetInnerHTML={{
                 __html: DOMPurify.sanitize(reactRIcon.current),
               }}
+              alt="React-Router"
             />
             <span
               className="firebase"
@@ -54,11 +57,12 @@ const Projects = () => {
               dangerouslySetInnerHTML={{
                 __html: DOMPurify.sanitize(firebaseIcon.current),
               }}
+              alt="Firebase"
             />
           </div>
           <div>
-            <a href="https://github.com/savwiley/waldo">GitHub</a>
-            <a href="https://waldo-9e96c.web.app/">Live Preview</a>
+            <a href="https://github.com/savwiley/waldo" alt="GitHub Repo">GitHub</a>
+            <a href="https://waldo-9e96c.web.app/" alt="Preview Where's Waldo?">Live Preview</a>
           </div>
         </div>
       </div>
@@ -83,6 +87,7 @@ const Projects = () => {
               dangerouslySetInnerHTML={{
                 __html: DOMPurify.sanitize(jsIcon.current),
               }}
+              alt="JavaScript"
             />
             <span
               className="react"
@@ -90,6 +95,7 @@ const Projects = () => {
               dangerouslySetInnerHTML={{
                 __html: DOMPurify.sanitize(reactIcon.current),
               }}
+              alt="React"
             />
             <span
               className="reactroute"
@@ -97,6 +103,7 @@ const Projects = () => {
               dangerouslySetInnerHTML={{
                 __html: DOMPurify.sanitize(reactRIcon.current),
               }}
+              alt="React-Router"
             />
             <span
               className="jest"
@@ -104,18 +111,19 @@ const Projects = () => {
               dangerouslySetInnerHTML={{
                 __html: DOMPurify.sanitize(jestIcon.current),
               }}
+              alt="Jest"
             />
           </div>
           <div>
-            <a href="https://github.com/savwiley/battleship">GitHub</a>
-            <a href="https://savwiley.github.io/battleship/">Live Preview</a>
+            <a href="https://github.com/savwiley/battleship" alt="GitHub Repo">GitHub</a>
+            <a href="https://savwiley.github.io/battleship/" alt="Preview Battleship">Live Preview</a>
           </div>
         </div>
-        <div className="pic"></div>
+        <div className="pic" alt="GIF of a Battleship game showcasing placement of ships & battle against an AI opponent."></div>
       </div>
 
       <div className="proj cart">
-        <div className="pic"></div>
+        <div className="pic" alt="GIF of a fake retail site featuring a filter of product categories, individual item pages, and an interactive cart."></div>
         <div className="desc">
           <div>Mock Retail Site</div>
           <div>
@@ -135,6 +143,7 @@ const Projects = () => {
               dangerouslySetInnerHTML={{
                 __html: DOMPurify.sanitize(jsIcon.current),
               }}
+              alt="JavaScript"
             />
             <span
               className="react"
@@ -142,6 +151,7 @@ const Projects = () => {
               dangerouslySetInnerHTML={{
                 __html: DOMPurify.sanitize(reactIcon.current),
               }}
+              alt="React"
             />
             <span
               className="reactroute"
@@ -149,11 +159,12 @@ const Projects = () => {
               dangerouslySetInnerHTML={{
                 __html: DOMPurify.sanitize(reactRIcon.current),
               }}
+              alt="React-Router"
             />
           </div>
           <div>
-            <a href="https://github.com/savwiley/shopping-cart">GitHub</a>
-            <a href="https://savwiley.github.io/shopping-cart/">Live Preview</a>
+            <a href="https://github.com/savwiley/shopping-cart" alt="GitHub Repo">GitHub</a>
+            <a href="https://savwiley.github.io/shopping-cart/" alt="Preview Mock Retail Site">Live Preview</a>
           </div>
         </div>
       </div>
@@ -178,6 +189,7 @@ const Projects = () => {
               dangerouslySetInnerHTML={{
                 __html: DOMPurify.sanitize(jsIcon.current),
               }}
+              alt="JavaScript"
             />
             <span
               className="react"
@@ -185,18 +197,19 @@ const Projects = () => {
               dangerouslySetInnerHTML={{
                 __html: DOMPurify.sanitize(reactIcon.current),
               }}
+              alt="React"
             />
           </div>
           <div>
-            <a href="https://github.com/savwiley/memoryCard">GitHub</a>
-            <a href="https://savwiley.github.io/memoryCard/">Live Preview</a>
+            <a href="https://github.com/savwiley/memoryCard" alt="GitHub Repo">GitHub</a>
+            <a href="https://savwiley.github.io/memoryCard/" alt="Preview Memory Game">Live Preview</a>
           </div>
         </div>
-        <div className="pic"></div>
+        <div className="pic" alt="GIF of a MCU poster selecting game with a high score system."></div>
       </div>
 
       <div className="proj library">
-        <div className="pic"></div>
+        <div className="pic" alt="GIF of a universal library featuring user input & community interaction."></div>
         <div className="desc">
           <div>The Library</div>
           <div>
@@ -216,6 +229,7 @@ const Projects = () => {
               dangerouslySetInnerHTML={{
                 __html: DOMPurify.sanitize(jsIcon.current),
               }}
+              alt="JavaScript"
             />
             <span
               className="webpack"
@@ -223,6 +237,7 @@ const Projects = () => {
               dangerouslySetInnerHTML={{
                 __html: DOMPurify.sanitize(webpackIcon.current),
               }}
+              alt="webpack"
             />
             <span
               className="firebase"
@@ -230,11 +245,12 @@ const Projects = () => {
               dangerouslySetInnerHTML={{
                 __html: DOMPurify.sanitize(firebaseIcon.current),
               }}
+              alt="Firebase"
             />
           </div>
           <div>
-            <a href="https://github.com/savwiley/libraryProject">GitHub</a>
-            <a href="https://savwiley.github.io/libraryProject/dist/">
+            <a href="https://github.com/savwiley/libraryProject" alt="GitHub Repo">GitHub</a>
+            <a href="https://savwiley.github.io/libraryProject/dist/" alt="Preview the Library">
               Live Preview
             </a>
           </div>
@@ -261,6 +277,7 @@ const Projects = () => {
               dangerouslySetInnerHTML={{
                 __html: DOMPurify.sanitize(jsIcon.current),
               }}
+              alt="JavaScript"
             />
             <span
               className="webpack"
@@ -268,14 +285,15 @@ const Projects = () => {
               dangerouslySetInnerHTML={{
                 __html: DOMPurify.sanitize(webpackIcon.current),
               }}
+              alt="webpack"
             />
           </div>
           <div>
-            <a href="https://github.com/savwiley/weather">GitHub</a>
-            <a href="https://savwiley.github.io/weather/dist/">Live Preview</a>
+            <a href="https://github.com/savwiley/weather" alt="GitHub Repo">GitHub</a>
+            <a href="https://savwiley.github.io/weather/dist/" alt="Preview Weather App">Live Preview</a>
           </div>
         </div>
-        <div className="pic"></div>
+        <div className="pic" alt="GIF of a working weather app featuring user input to any location, accurate temperatures, weather reports, & icons of predicted weather."></div>
       </div>
     </div>
   );

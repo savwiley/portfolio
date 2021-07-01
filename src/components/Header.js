@@ -24,7 +24,7 @@ const Header = () => {
   });
 
   return (
-    <div className="header interactive">
+    <div className="header interactive" id="top">
       <div className="headerInner">
         <div id="name">Savannaha Wiley</div>
         <div id="webD"></div>

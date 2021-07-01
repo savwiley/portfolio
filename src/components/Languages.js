@@ -22,7 +22,7 @@ const Languages = () => {
   const eslintIcon = useRef(simpleIcons.Get("eslint").svg);
 
   return (
-    <div className="languages interactive">
+    <div className="languages interactive" id="languages">
       <div>
         <div className="sect">Languages</div>
         <div className="sectDiv">
@@ -32,6 +32,7 @@ const Languages = () => {
             dangerouslySetInnerHTML={{
               __html: DOMPurify.sanitize(htmlIcon.current),
             }}
+            alt="HTML5"
           />
           <div
             id="css"
@@ -39,6 +40,7 @@ const Languages = () => {
             dangerouslySetInnerHTML={{
               __html: DOMPurify.sanitize(cssIcon.current),
             }}
+            alt="CSS3"
           />
           <div
             id="js"
@@ -46,6 +48,7 @@ const Languages = () => {
             dangerouslySetInnerHTML={{
               __html: DOMPurify.sanitize(jsIcon.current),
             }}
+            alt="JavaScript"
           />
           <div
             id="php"
@@ -53,6 +56,7 @@ const Languages = () => {
             dangerouslySetInnerHTML={{
               __html: DOMPurify.sanitize(phpIcon.current),
             }}
+            alt="PHP"
           />
         </div>
 
@@ -64,6 +68,7 @@ const Languages = () => {
             dangerouslySetInnerHTML={{
               __html: DOMPurify.sanitize(webpackIcon.current),
             }}
+            alt="webpack"
           />
           <div
             id="react"
@@ -71,6 +76,7 @@ const Languages = () => {
             dangerouslySetInnerHTML={{
               __html: DOMPurify.sanitize(reactIcon.current),
             }}
+            alt="React"
           />
           <div
             id="reactroute"
@@ -78,6 +84,7 @@ const Languages = () => {
             dangerouslySetInnerHTML={{
               __html: DOMPurify.sanitize(reactRIcon.current),
             }}
+            alt="React-Router"
           />
         </div>
 
@@ -89,6 +96,7 @@ const Languages = () => {
             dangerouslySetInnerHTML={{
               __html: DOMPurify.sanitize(firebaseIcon.current),
             }}
+            alt="Firebase"
           />
           <div
             id="heroku"
@@ -96,6 +104,7 @@ const Languages = () => {
             dangerouslySetInnerHTML={{
               __html: DOMPurify.sanitize(herokuIcon.current),
             }}
+            alt="Heroku"
           />
         </div>
       </div>
@@ -109,6 +118,7 @@ const Languages = () => {
             dangerouslySetInnerHTML={{
               __html: DOMPurify.sanitize(jasmineIcon.current),
             }}
+            alt="Jasmine"
           />
           <div
             id="jest"
@@ -116,6 +126,7 @@ const Languages = () => {
             dangerouslySetInnerHTML={{
               __html: DOMPurify.sanitize(jestIcon.current),
             }}
+            alt="Jest"
           />
         </div>
 
@@ -127,6 +138,7 @@ const Languages = () => {
             dangerouslySetInnerHTML={{
               __html: DOMPurify.sanitize(prettierIcon.current),
             }}
+            alt="Prettier"
           />
           <div
             id="eslint"
@@ -134,6 +146,7 @@ const Languages = () => {
             dangerouslySetInnerHTML={{
               __html: DOMPurify.sanitize(eslintIcon.current),
             }}
+            alt="ESLint"
           />
         </div>
 
@@ -141,10 +154,11 @@ const Languages = () => {
         <div className="sectDiv">
           <div
             id="vscode"
-            data-tip="VSCode"
+            data-tip="Visual Studio Code"
             dangerouslySetInnerHTML={{
               __html: DOMPurify.sanitize(vscodeIcon.current),
             }}
+            alt="Visual Studio Code"
           />
           <div
             id="npm"
@@ -152,6 +166,7 @@ const Languages = () => {
             dangerouslySetInnerHTML={{
               __html: DOMPurify.sanitize(npmIcon.current),
             }}
+            alt="npm"
           />
           <div
             id="yarn"
@@ -159,6 +174,7 @@ const Languages = () => {
             dangerouslySetInnerHTML={{
               __html: DOMPurify.sanitize(yarnIcon.current),
             }}
+            alt="yarn"
           />
           <div
             id="git"
@@ -166,6 +182,7 @@ const Languages = () => {
             dangerouslySetInnerHTML={{
               __html: DOMPurify.sanitize(gitIcon.current),
             }}
+            alt="Git"
           />
         </div>
       </div>

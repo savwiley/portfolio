@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import ReactTooltip from "react-tooltip";
+import NavBar from "./components/NavBar.js";
 import Header from "./components/Header.js";
 import Languages from "./components/Languages.js";
 import Projects from "./components/Projects.js";
@@ -32,6 +33,8 @@ function App() {
         arrowColor="transparent"
         place="bottom"
       />
+
+      <NavBar />
 
       <Header />
 
@@ -68,9 +71,8 @@ export default App;
 
 
 /**
- * - NAVBAR
  * - download the desired bg
  * - README
- * - create ALT for all links & images
  * - fill in blurbs
+ * - mobile friendly
  */

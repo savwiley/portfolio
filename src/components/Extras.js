@@ -11,10 +11,10 @@ import {
 
 const Extras = () => {
   return (
-    <div className="experience interactive">
+    <div className="experience interactive" id="about">
       <div className="half">
         <div>
-          <div className="faIcon">
+          <div className="faIcon" alt="Education">
             <FontAwesomeIcon icon={faGraduationCap} className="exIcon" />
           </div>
           <div className="exBlurb">
@@ -24,16 +24,16 @@ const Extras = () => {
           </div>
         </div>
         <div>
-          <div className="faIcon">
+          <div className="faIcon" alt="Dreamwidth Community">
             <FontAwesomeIcon icon={faBirthdayCake} className="exIcon" />
           </div>
           <div className="exBlurb">
-            <h1>KillTheCake</h1>
+            <h1>Free CSS</h1>
             <span>My oddly named <a href="https://killthecake.dreamwidth.org/">Dreamwidth community</a> housing a library of CSS works for free use, from blog layouts to image displays.</span>
           </div>
         </div>
         <div>
-          <div className="faIcon">
+          <div className="faIcon" alt="Typing Speed">
             <FontAwesomeIcon icon={faKeyboard} className="exIcon" />
           </div>
           <div className="exBlurb">
@@ -45,7 +45,7 @@ const Extras = () => {
 
       <div className="half">
         <div>
-          <div className="faIcon">
+          <div className="faIcon" alt="Self-Taught Learner">
             <FontAwesomeIcon icon={faCode} className="exIcon" />
           </div>
           <div className="exBlurb">
@@ -54,16 +54,16 @@ const Extras = () => {
           </div>
         </div>
         <div>
-          <div className="faIcon">
+          <div className="faIcon" alt="Charity">
             <FontAwesomeIcon icon={faRibbon} className="exIcon" />
           </div>
           <div className="exBlurb">
-            <h1>Black AIDS Institute</h1>
+            <h1>Charity Drives</h1>
             <span>Hosted a fundraiser where I traded my coding skills for charity. All proceeds went to the <a href="https://blackaids.org/">Black AIDS Institute</a>.</span>
           </div>
         </div>
         <div>
-          <div className="faIcon">
+          <div className="faIcon" alt="Writing">
             <FontAwesomeIcon icon={faPenFancy} className="exIcon" />
           </div>
           <div className="exBlurb">
