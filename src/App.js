@@ -4,10 +4,15 @@ import Header from "./components/Header.js";
 import Languages from "./components/Languages.js";
 import Projects from "./components/Projects.js";
 import Extras from "./components/Extras.js";
+import Socials from "./components/Socials.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function App() {
+  console.log("This site was made with ReactJS & is hosted with Heroku. You can find all of the files at:");
+  console.log("https://github.com/savwiley/portfolio");
+  console.log("(っ ᵔ︠ ▿ ︡ᵔ)っ🎔 Thanks for visiting!");
+
   //gradient moves with mouse
   useEffect(() => {
     const interact = document.querySelectorAll(".interactive");
@@ -25,7 +30,7 @@ function App() {
       <ReactTooltip
         backgroundColor="#036656"
         arrowColor="transparent"
-        place="top"
+        place="bottom"
       />
 
       <Header />
@@ -53,6 +58,8 @@ function App() {
       <Projects />
 
       <Extras />
+
+      <Socials />
     </>
   );
 }
@@ -61,11 +68,9 @@ export default App;
 
 
 /**
- * SOCIALS
- * codepen
- * kofi
- * twitter
- * dreamwidth
- * github
- * NAVBAR
+ * - NAVBAR
+ * - download the desired bg
+ * - README
+ * - create ALT for all links & images
+ * - fill in blurbs
  */
