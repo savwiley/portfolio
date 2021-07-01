@@ -3,6 +3,7 @@ import ReactTooltip from "react-tooltip";
 import Header from "./components/Header.js";
 import Languages from "./components/Languages.js";
 import Projects from "./components/Projects.js";
+import Extras from "./components/Extras.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
@@ -50,8 +51,21 @@ function App() {
       <Languages />
 
       <Projects />
+
+      <Extras />
     </>
   );
 }
 
 export default App;
+
+
+/**
+ * SOCIALS
+ * codepen
+ * kofi
+ * twitter
+ * dreamwidth
+ * github
+ * NAVBAR
+ */
