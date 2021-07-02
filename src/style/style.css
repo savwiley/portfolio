@@ -151,6 +151,14 @@
   text-align: justify;
   cursor: default;
 }
+#piece a {
+  color: var(--dkSea);
+  text-decoration: none;
+  font-weight: bold;
+}
+#piece a:hover {
+  color: var(--mdSea);
+}
 
 /* LANGUAGES */
 
