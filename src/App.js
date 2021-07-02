@@ -40,15 +40,11 @@ function App() {
 
       <div className="blurb">
         <div id="piece">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          lacinia diam ultrices malesuada lobortis. Proin convallis iaculis
-          lorem non dignissim. Phasellus tristique aliquam consequat. Donec
-          vulputate sem id hendrerit finibus. Aenean imperdiet sagittis risus
-          quis lacinia. Nullam sed pulvinar lorem. Mauris lacinia sit amet dui
-          id pulvinar. Praesent tristique volutpat maximus. Nullam sed diam
-          augue. Class aptent taciti sociosqu ad litora torquent per conubia
-          nostra, per inceptos himenaeos. Mauris tincidunt viverra mi sed
-          suscipit.
+          Hello there! My name, as you can likely guess, is Savannaha Wiley. I live in Louisiana with my two dogs and cat: Hank, Sadie, & Mini respectively. I finished college with a <b>Master's degree in 2017</b> & have worked in Technical Writing ever since.
+          <br />
+          As my writings started leaning more into <b>software & coding</b>, I got an itch to learn more, prompting me to start with CSS. Once the pandemic happened and work slowed to a grinding halt, I jumped into the coding life practically face first & haven't regretted a second of it. Right now, other than learning as many coding languages as I can, my goal is to make the career change into <b>Web Development</b>.
+          <br />
+          When I'm not coding, I enjoy playing FPS games with my mom, slogging through the entire Star Trek franchise with my best friend, playing TCGs with friends online, and informing my dog that he's a good boy. If you're interested in getting to know me better, you can check out my GitHub at the link below or look for me on <a href="#about">social media</a>. Regardless, I'm glad you stopped by!
         </div>
 
         <a href="https://github.com/savwiley" alt="Github" data-tip="Github">
