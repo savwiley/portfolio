@@ -4,6 +4,11 @@ If you're here, then you're probably interested in learning more about me & the 
 
 Otherwise, here's a little bit about me!
 
+- [Languages/Programs](https://github.com/savwiley/portfolio#languages--programs-i-use-often) :computer:
+- [Projects](https://github.com/savwiley/portfolio#some-projects-im-proud-of) :sparkles:
+- [About Me]() :grin:
+- [Socials & Contact]() :incoming_envelope:
+
 ## Languages & Programs I Use Often
 
 <img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/> <img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/> <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img alt="PHP" src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white"/>
@@ -26,7 +31,7 @@ Otherwise, here's a little bit about me!
 
 ## Some Projects I'm Proud Of
 
-<img alt="Battleship" src="https://raw.githubusercontent.com/savwiley/portfolio/master/src/images/battleship.png" width="300" /> <img alt="Mock Retail Site" src="https://raw.githubusercontent.com/savwiley/portfolio/master/src/images/shopping.png" width="300" /> <img alt="Weather App" src="https://raw.githubusercontent.com/savwiley/portfolio/master/src/images/weather.png" width="300" />
+<img alt="Battleship" src="https://raw.githubusercontent.com/savwiley/portfolio/master/src/images/battleship.png" width="300" height="150" /> <img alt="Mock Retail Site" src="https://raw.githubusercontent.com/savwiley/portfolio/master/src/images/shopping.png" width="300" height="150" /> <img alt="Weather App" src="https://raw.githubusercontent.com/savwiley/portfolio/master/src/images/weather.png" width="300" height="150" />
 
 - [Where's Waldo?](https://github.com/savwiley/waldo) - A Where's Waldo-esque game where players find different pop culture characters. Complete with varying difficulties & high score tables. Made with ReactJS, React-Router, & Firebase.
 
