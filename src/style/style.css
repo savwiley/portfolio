@@ -9,7 +9,7 @@
   --mdSea: #018f77;
   --dkSea: #036656;
 
-  --background: url("https://www.transparenttextures.com/patterns/escheresque-dark.png")
+  --background: url("../images/escheresque-dark.png")
       fixed,
     radial-gradient(at center, var(--ltSea), var(--dkSea));
 }
