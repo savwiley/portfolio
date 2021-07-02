@@ -1,4 +1,4 @@
-# Welcome to My Portfolio! :octocat:
+# Welcome to My Portfolio! :wave:
 
 <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E"/>
 
