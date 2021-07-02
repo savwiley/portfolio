@@ -306,15 +306,22 @@ svg {
   font-size: 35px;
   text-shadow: 1px 1px 0px #000;
   border-bottom: 1px dashed;
-  width: 80%;
-  margin: auto;
+  width: 60%;
+  margin: 0 auto 10px;
 }
 
 .desc div:nth-child(2) {
   text-align: justify;
-  padding: 0 5px;
+  padding: 0 30px;
   color: #fff;
+  margin-bottom: 10px;
   text-shadow: 1px 1px 0 #000;
+}
+.desc div:nth-child(2) a {
+  color: var(--ltrSea);
+  text-decoration: none;
+  text-shadow: 1px 1px 0px #000;
+  transition: all 0.5s;
 }
 
 .desc svg {
@@ -330,7 +337,7 @@ svg {
   display: flex;
   flex-direction: row;
 }
-.desc a {
+.desc div:nth-child(4) a {
   width: 50%;
   color: var(--ltSea);
   font-size: 20px;
@@ -338,7 +345,7 @@ svg {
   text-shadow: 1px 1px 0px #000;
   transition: all 0.5s;
 }
-.desc a:hover {
+.desc div:nth-child(4) a:hover {
   letter-spacing: 3px;
   color: var(--ltrSea);
 }

@@ -17,14 +17,7 @@ const Projects = () => {
         <div className="desc">
           <div>Where's Waldo?</div>
           <div>
-            Where's Waldo-espue game with high scores table & three
-            difficulties. TOP project. Where's Waldo-espue game with high scores
-            table & three difficulties. TOP project. Where's Waldo-espue game
-            with high scores table & three difficulties. TOP project. Where's
-            Waldo-espue game with high scores table & three difficulties. TOP
-            project. Where's Waldo-espue game with high scores table & three
-            difficulties. TOP project. Where's Waldo-espue game with high scores
-            table & three difficulties. TOP project.
+            This app was made with ReactJS, React-Router, & Firebase. It was one of the first I created using Firebase, and so I learned how to use Firebase, Firestore, & other Firebase features. The app includes three difficulty settings, a high scores table based on time taken to find all the characters, and the option to submit your score anonymously (by assigning you a random Pokémon name). It also shows the most recent scores in each difficulty setting. The artwork used in this app was created by <a href="https://www.artstation.com/chekavo" alt="Egor Klyuchnyk artwork">Egor Klyuchnyk</a>.
           </div>
           <div>
             <span
@@ -71,14 +64,7 @@ const Projects = () => {
         <div className="desc">
           <div>Battleship</div>
           <div>
-            Where's Waldo-espue game with high scores table & three
-            difficulties. TOP project. Where's Waldo-espue game with high scores
-            table & three difficulties. TOP project. Where's Waldo-espue game
-            with high scores table & three difficulties. TOP project. Where's
-            Waldo-espue game with high scores table & three difficulties. TOP
-            project. Where's Waldo-espue game with high scores table & three
-            difficulties. TOP project. Where's Waldo-espue game with high scores
-            table & three difficulties. TOP project.
+            This Battleship game was made with React & React-Router. Though it wasn't the first project I used a testing framework on, it was the first time I used Jest & integrated testing so thoroughly into a project. This app allows players to place their own ships and play against an AI. It features an info board to keep players up to date on the computer's latest move and a small wait time while the computer is "thinking" about its next move, making the opponent seem a little more real and the game more fluid.
           </div>
           <div>
             <span
@@ -127,14 +113,7 @@ const Projects = () => {
         <div className="desc">
           <div>Mock Retail Site</div>
           <div>
-            Where's Waldo-espue game with high scores table & three
-            difficulties. TOP project. Where's Waldo-espue game with high scores
-            table & three difficulties. TOP project. Where's Waldo-espue game
-            with high scores table & three difficulties. TOP project. Where's
-            Waldo-espue game with high scores table & three difficulties. TOP
-            project. Where's Waldo-espue game with high scores table & three
-            difficulties. TOP project. Where's Waldo-espue game with high scores
-            table & three difficulties. TOP project.
+            This project was made with ReactJS & React-Router. In fact, this was the first time I had ever used React-Router before. This mock retail site features a catalogue of products, filterable through categories, that each have their own page with pictures, descriptions, and price. Users can submit/edit quantities and push their desired items to their shopping cart. The cart itself shows the total amount of items and allows users to delete products from their cart if they desire.
           </div>
           <div>
             <span
@@ -173,14 +152,7 @@ const Projects = () => {
         <div className="desc">
           <div>Memory Game</div>
           <div>
-            Where's Waldo-espue game with high scores table & three
-            difficulties. TOP project. Where's Waldo-espue game with high scores
-            table & three difficulties. TOP project. Where's Waldo-espue game
-            with high scores table & three difficulties. TOP project. Where's
-            Waldo-espue game with high scores table & three difficulties. TOP
-            project. Where's Waldo-espue game with high scores table & three
-            difficulties. TOP project. Where's Waldo-espue game with high scores
-            table & three difficulties. TOP project.
+            The memory game was made with React & was one of the first projects I ever used React on. It taught me how to use custom hooks & object arrays with React. In this game, the user clicks on images they haven't clicked on before, forcing them to remember 15 different images. The game features various Marvel Cinematic Universe posters. If a character loses, their score (if higher than their previous scores) is set as their high score. If they can get through all 15 images, they win.
           </div>
           <div>
             <span
@@ -213,14 +185,7 @@ const Projects = () => {
         <div className="desc">
           <div>The Library</div>
           <div>
-            Where's Waldo-espue game with high scores table & three
-            difficulties. TOP project. Where's Waldo-espue game with high scores
-            table & three difficulties. TOP project. Where's Waldo-espue game
-            with high scores table & three difficulties. TOP project. Where's
-            Waldo-espue game with high scores table & three difficulties. TOP
-            project. Where's Waldo-espue game with high scores table & three
-            difficulties. TOP project. Where's Waldo-espue game with high scores
-            table & three difficulties. TOP project.
+            The Library was initially an older project that taught me how to use webpack. Originally, it kept a user's books stored on their browser's local storage where they could set if they read particular books or not. However, I have since gone back and refactored the code to add Firebase. Now, The Library is a universal one, always remembering new inputs & allowing users to put in whatever books they desire. They can also share which books they have read or sort through the current list of books in whatever way they desire. Feel free to take a look & add your own list of books.
           </div>
           <div>
             <span
@@ -261,14 +226,7 @@ const Projects = () => {
         <div className="desc">
           <div>Weather App</div>
           <div>
-            Where's Waldo-espue game with high scores table & three
-            difficulties. TOP project. Where's Waldo-espue game with high scores
-            table & three difficulties. TOP project. Where's Waldo-espue game
-            with high scores table & three difficulties. TOP project. Where's
-            Waldo-espue game with high scores table & three difficulties. TOP
-            project. Where's Waldo-espue game with high scores table & three
-            difficulties. TOP project. Where's Waldo-espue game with high scores
-            table & three difficulties. TOP project.
+            While the Weather App may lack a radar, it still works like any other weather app you may have come across. This project was one of the first times I used an API, as well as one of the first projects to teach me about Promises and async/await functions. It features the current weather in any major city in the world, while also displaying future predictions for the next few hours to next few days, accurate icons to depict the predicted weather, country flags of all cities, & the option to view temperatures in Fahrenheit or Celsius.
           </div>
           <div>
             <span
