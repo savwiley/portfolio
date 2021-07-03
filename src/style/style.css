@@ -36,10 +36,11 @@
 /* NAVBAR */
 
 .navigation {
-  background: rgba(0,0,0,0.2);
+  background: #fff;
   backdrop-filter: blur(1px);
-  box-shadow: 0px 3px 4px #000;
   display: flex;
+  justify-content: flex-end;
+  box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
   position: fixed;
   top: 0;
   left: 0;
@@ -50,16 +51,17 @@
 .navigation a {
   width: 100%;
   text-align: center;
-  color: #fff;
+  color: #000;
   text-decoration: none;
-  font-variant: small-caps;
   font-size: 25px;
-  padding-bottom: 5px;
-  margin-top: -5px;
-  text-shadow: 1px 1px 0px #000, 2px 2px 0px #000;
+  font-family: var(--font);
+  padding: 5px 0 8px;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 0px rgba(0,0,0,0.4);
+  transition: all 0.2s;
 }
 .navigation a:hover {
-  background: rgba(255,255,255,0.5);
+  color: var(--dkSea);
 }
 
 /* HEADER */
@@ -203,65 +205,71 @@ svg {
 }
 #html,
 .html {
-  fill: #e66b06;
+  fill: #E34F26;
 }
 #css,
 .css {
-  fill: #008cff;
+  fill: #1572B6;
 }
 #js,
 .js {
-  fill: #ffff6c;
+  fill: #F7DF1E;
 }
 #php {
-  fill: #8f63d6;
+  fill: #777BB4;
 }
 #webpack,
 .webpack {
-  fill: #2862ff;
+  fill: #8DD6F9;
 }
 #react,
 .react {
-  fill: #64edff;
+  fill: #61DAFB;
 }
 #reactroute,
 .reactroute {
-  fill: #b92b2b;
+  fill: #CA4245;
 }
 #firebase,
 .firebase {
-  fill: #ffa500;
+  fill: #FFCA28;
 }
 #heroku {
-  fill: #8f45a5;
+  fill: #430098;
 }
 #vscode,
 .vscode {
-  fill: #006eff;
+  fill: #007ACC;
 }
 #npm,
 .npm {
-  fill: #c53737;
+  fill: #CB3837;
 }
 #yarn {
-  fill: #4a99e2;
+  fill: #2C8EBB;
 }
 #git,
 .git {
-  fill: #db4a30;
+  fill: #F05032;
 }
 #jasmine {
-  fill: #9b519b;
+  fill: #8A4182;
 }
 #jest,
 .jest {
-  fill: #db4d34;
+  fill: #C21325;
 }
 #prettier {
-  fill: #adadad;
+  fill: #F7B93E;
 }
 #eslint {
-  fill: #4609a8;
+  fill: #4B32C3;
+}
+#babel {
+  fill: #F9DC3E;
+}
+#node {
+  fill: #339933;
 }
 
 /* PROJECTS */
