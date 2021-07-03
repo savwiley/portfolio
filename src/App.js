@@ -21,7 +21,7 @@ function App() {
       e.addEventListener("mousemove", (i) => {
         const X = (i.clientX / window.innerWidth) * 100;
         const Y = (i.clientY / window.innerHeight) * 100;
-        e.style.background = `url("https://www.transparenttextures.com/patterns/escheresque-dark.png") fixed, radial-gradient(at ${X}% ${Y}%, #0ec7a8, #036656)`;
+        e.style.background = `url("https://www.transparenttextures.com/patterns/rocky-wall.png") fixed, radial-gradient(at ${X}% ${Y}%, #0ec7a8, #036656)`;
       });
     });
   });
@@ -67,8 +67,5 @@ export default App;
 
 
 /**
- * - download the desired bg
- * - README
- * - fill in blurbs
- * - mobile friendly
+ * - consider hosting on firebase instead of heroku
  */
