@@ -25,6 +25,10 @@ const Header = () => {
 
   return (
     <div className="header interactive" id="top">
+
+      <div className="cloud left" />
+      <div className="cloud right" />
+
       <div className="headerInner">
         <div id="name">Savannaha Wiley</div>
         <div id="webD"></div>
