@@ -20,6 +20,8 @@ const Languages = () => {
   const jestIcon = useRef(simpleIcons.Get("jest").svg);
   const prettierIcon = useRef(simpleIcons.Get("prettier").svg);
   const eslintIcon = useRef(simpleIcons.Get("eslint").svg);
+  const babelIcon = useRef(simpleIcons.Get("babel").svg);
+  const nodeIcon = useRef(simpleIcons.Get("nodedotjs").svg);
 
   return (
     <div className="languages interactive" id="languages">
@@ -85,6 +87,14 @@ const Languages = () => {
               __html: DOMPurify.sanitize(reactRIcon.current),
             }}
             alt="React-Router"
+          />
+          <div
+            id="node"
+            data-tip="Node.JS"
+            dangerouslySetInnerHTML={{
+              __html: DOMPurify.sanitize(nodeIcon.current),
+            }}
+            alt="Node.JS"
           />
         </div>
 
@@ -175,6 +185,14 @@ const Languages = () => {
               __html: DOMPurify.sanitize(yarnIcon.current),
             }}
             alt="yarn"
+          />
+          <div
+            id="babel"
+            data-tip="Babel"
+            dangerouslySetInnerHTML={{
+              __html: DOMPurify.sanitize(babelIcon.current),
+            }}
+            alt="Babel"
           />
           <div
             id="git"
