@@ -1,15 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gruppo&family=Open+Sans&display=swap");
 
 :root {
-  --font: "Oswald", sans-serif;
-  --header: "Fredericka the Great", cursive;
+  --font: "Open Sans", sans-serif;
+  --header: "Gruppo", cursive;
 
   --ltrSea: #00ffd5;
   --ltSea: #0ec7a8;
   --mdSea: #018f77;
   --dkSea: #036656;
 
-  --background: url("../images/escheresque-dark.png")
+  --background: url("https://www.transparenttextures.com/patterns/rocky-wall.png")
       fixed,
     radial-gradient(at center, var(--ltSea), var(--dkSea));
 }
@@ -73,6 +73,44 @@
   z-index: 0;
 }
 
+.cloud {
+  width: 350px;
+  height: 120px;
+  background: var(--ltrSea);
+  position: absolute;
+  border-radius: 100px;
+  z-index: 4;
+}
+.left {
+  top: 15%;
+  box-shadow: -5px 10px rgba(0,0,0,0.2);
+}
+.right {
+  right: 0;
+  top: 70%;
+  box-shadow: 5px 10px rgba(0,0,0,0.2);
+}
+.cloud::after, .cloud::before{
+  content: "";
+  position:relative;
+  display: inline-block;
+  background: inherit;
+  border-radius: inherit;
+  z-index: 4;
+}
+.cloud::after{
+  width: 100px;
+  height: 100px;
+  top: -120px;
+  left: -100px;
+}
+.cloud::before{
+  width: 180px;
+  height: 180px;
+  top: -70px;
+  left: 130px;
+}
+
 .headerInner {
   display: block;
   width: fit-content;
@@ -87,7 +125,7 @@
   font-size: 8vw;
   font-family: var(--header);
   color: #fff;
-  text-shadow: 2px 2px 0px #000;
+  text-shadow: 1px 1px 0px #000, 2px 2px 0px #000, 3px 3px 0px #000, 4px 4px 0px #000;
   margin-bottom: -20px;
   transform: rotate(-5deg);
 }
@@ -99,6 +137,7 @@
   color: #fff;
   letter-spacing: 5px;
   font-variant: small-caps;
+  text-shadow: 2px 2px 0px #000;
 }
 
 @keyframes arrowBounce {
@@ -201,7 +240,7 @@ svg {
   width: 45px;
   pointer-events: none;
   margin-bottom: 10px;
-  filter: drop-shadow(1px 1px 1px #000);
+  filter: drop-shadow(2px 2px 1px #000);
 }
 #html,
 .html {
@@ -482,11 +521,11 @@ h1 {
 }
 #footer a {
   font-size: 60px;
-  color: var(--ltSea);
+  color: var(--ltrSea);
   transition: all 0.5s;
 }
 #footer a:hover {
-  color: var(--ltrSea);
+  color: var(--dkSea);
 }
 
 /* MOBILE */
