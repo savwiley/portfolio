@@ -6,9 +6,8 @@ Otherwise, you can always have a look around the README!
 
 - [Languages/Programs](https://github.com/savwiley/portfolio#languages--programs-i-use-often) :computer:
 - [JavaScript Projects](https://github.com/savwiley/portfolio#some-projects-im-proud-of) :octocat:
-- [About Me]() :grin:
-- [Socials & Contact]() :speech_balloon:
-- [Portfolio Site Credits]() :scroll:
+- [About Me](https://github.com/savwiley/portfolio#get-to-know-me) :grin:
+- [Contact & Credits](https://github.com/savwiley/portfolio#where-to-find-me) :speech_balloon:
 
 ## Languages & Programs I Use Often
 
@@ -92,7 +91,7 @@ At present, I'm extremely excited to start a full-blown career utilizing what wa
 
 ## Credits
 
-My portfolio site was made using [ReactJS ^17.0.2](https://reactjs.org/).
+My portfolio site was made using [ReactJS ^17.0.2](https://reactjs.org/) & [THE HOST](URL).
 
 Alt-text boxes edited with [React-Tooltip ^4.2.21](https://www.npmjs.com/package/react-tooltip).
 
@@ -103,3 +102,5 @@ Icons are from [Simple Icons ^5.4.0](https://simpleicons.org/), [DOMPurify ^2.2.
 'Fredericka the Great' & 'Oswald' fonts from [Google Fonts](https://fonts.google.com/).
 
 Code formatted with [Prettier ^2.3.2](https://prettier.io/).
+
+README buttons from [Shields.io](https://shields.io/).
