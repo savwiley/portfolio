@@ -37,18 +37,69 @@ Otherwise, you can always have a look around the README!
 
 ## Some Projects I'm Proud Of
 
-- [Where's Waldo?](https://github.com/savwiley/waldo) - A Where's Waldo-esque game where players find different pop culture characters. Complete with varying difficulties & high score tables. Made with ReactJS, React-Router, & Firebase.
+- [Where's Waldo?](https://github.com/savwiley/waldo) - A Where's Waldo-esque game where players find different pop culture characters. Complete with varying difficulties & high score tables.
 
-- [Battleship](https://github.com/savwiley/battleship) - A real game of Battleship you can play against an AI. Place your ships, load your boards, & annihilate the enemy! Made with ReactJS & React-Router.
+  <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img alt="React-Router" src="https://img.shields.io/badge/react-router-%2320232a.svg?style=for-the-badge&logo=react-router&logoColor=fc052f"/> <img alt="Firebase" src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase"/>
 
-- [Mock Retail Site](https://github.com/savwiley/shopping-cart) - A fake retail website that displays products filtered by category, allows users to navigate to each product's own page, & gives options to buyers for adding a certain quantity to their shopping cart! Users can change quantities or remove items as they see fit. Made with ReactJS & React-Router.
+- [Battleship](https://github.com/savwiley/battleship) - A real game of Battleship you can play against an AI. Place your ships, load your boards, & annihilate the enemy!
 
-- [Memory Game](https://github.com/savwiley/memoryCard) - Play a game of memory! Select various MCU posters from the options provided but don't click on the same one twice. Pick all 15 and you win! Features a user's personal high score so they can battle against themselves. Made with ReactJS.
+  <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img alt="React-Router" src="https://img.shields.io/badge/react-router-%2320232a.svg?style=for-the-badge&logo=react-router&logoColor=fc052f"/>
 
-- [The Library](https://github.com/savwiley/libraryProject) - A universal library for users to add their own books and save them to a server. Other users can edit the books already listed, filter through them whichever way they desire, or add their number to whatever books they've already read. Made with JavaScript, Webpack, & Firebase.
+- [Mock Retail Site](https://github.com/savwiley/shopping-cart) - A fake retail website that displays products filtered by category, allows users to navigate to each product's own page, & gives options to buyers for adding a certain quantity to their shopping cart! Users can change quantities or remove items as they see fit.
 
-- [Weather App](https://github.com/savwiley/weather) - A real weather app with all the bells and whistles (except a working radar)! Search for any major city in the world to see accurate, real-time forecasts. Predictions can be shown from the next few hours to the next few days. There's also an option to view the temperature in Fahrenheit or Celsius. Made with JavaScript & Webpack.
+  <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img alt="React-Router" src="https://img.shields.io/badge/react-router-%2320232a.svg?style=for-the-badge&logo=react-router&logoColor=fc052f"/>
+
+- [Memory Game](https://github.com/savwiley/memoryCard) - Play a game of memory! Select various MCU posters from the options provided but don't click on the same one twice. Pick all 15 and you win! Features a user's personal high score so they can battle against themselves.
+
+  <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
+
+- [The Library](https://github.com/savwiley/libraryProject) - A universal library for users to add their own books and save them to a server. Other users can edit the books already listed, filter through them whichever way they desire, or add their number to whatever books they've already read.
+
+  <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img alt="Webpack" src="https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black" /> <img alt="Firebase" src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase"/>
+
+- [Weather App](https://github.com/savwiley/weather) - A real weather app with all the bells and whistles (except a working radar)! Search for any major city in the world to see accurate, real-time forecasts. Predictions can be shown from the next few hours to the next few days. There's also an option to view the temperature in Fahrenheit or Celsius.
+
+  <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img alt="Webpack" src="https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black" />
 
 ## Get to Know Me
 
-:mortar_board: I graduated with a **Master's in English** in 2017. I got my BA from Louisiana State University of Alexandria & my MA from Southern New Hampshire University.
+I graduated with a **Master's in English** in 2017. I got my BA from Louisiana State University of Alexandria & my MA from Southern New Hampshire University.
+
+After working at a newspaper & a mental rehabilitation center, I eventually began to work for home as a Freelance Writer, then an Alternative Text Writer, then inevitably a **Technical Writer**. My Technical Writing began with instructions on how to operate hardware before moving on to troubleshooting. Before I knew it, I was writing for software engineers. This is where my interest in coding began.
+
+In January 2020, I created a **[Dreamwidth Community](https://killthecake.dreamwidth.org/)** only to have a place online to practice learning CSS. When the COVID-19 pandemic began and my work slowed to halt, I dove further into self-learning. Fortunately, my CSS became popular on Dreamwidth, and I found myself taking commissions to build blog layouts and other such things.
+
+During the summer of 2020, I had decided to take coding seriously and was considering going back to school or joining a bootcamp. Then I discovered **[The Odin Project](https://www.theodinproject.com/)**. TOP is a non-profit community dedicated to teaching people how to code and prepare them for the job market. Armed with my background in research thanks to my education (and the fact that it was free), I decided to give them a try. I think the results have spoken for themselves. I owe a lot to the TOP community.
+
+At present, I'm extremely excited to start a full-blown career utilizing what was once a hobby and has since become a passion. Really, my love for literature and coding is just about the same. Both require ample amounts of research, both are forms of art in their own way, both can create entire worlds sprouting solely from imagination, and both have the power to change lives. That's precisely why I'm here.
+
+### Fun Facts About Me
+
+- I was born & raised in Louisiana, still living there today.
+- I have two dogs & a cat: Hank, Sadie, & Mini respectively.
+- I own entirely too much Star Wars merchandise.
+- When I started out in coding, I used my CSS skills to raise over $100 for [The Black AIDS Institute](https://blackaids.org/). I've since gotten more popular, which means more charity would take up a lot more time, but I plan to hold another for a different organization in the near future.
+- Thanks in part to my education, my brain is stuffed full with useless facts. 
+  - Did you know that sperm whales sleep vertically in groups?
+  - Or that ancient Romans would flood the Colosseum to perform naval battles?
+  - Or that 19th-century astronomers once believed there was a planet between the Sun & Mercury, which they named Vulcan?
+- To the constant exasperation of my mother, I also really love puns.
+  - What are windmills' favorite music genre? They're big metal fans.
+
+## Where To Find Me!
+
+<a href="https://codepen.io/savwiley"><img alt="CodePen" src="https://img.shields.io/badge/CodePen-545454.svg?style=for-the-badge&logo=codepen&logoColor=ffffff"/></a> <a href="https://twitter.com/sav_swiley"><img alt="Twitter" src="https://img.shields.io/badge/Twitter-55e1e6.svg?style=for-the-badge&logo=twitter&logoColor=ffffff"/></a> <a href="https://ergosumwriting.wordpress.com/"><img alt="WordPress" src="https://img.shields.io/badge/WordPress-249a9e.svg?style=for-the-badge&logo=wordpress&logoColor=ffffff"/></a> <a href="https://www.linkedin.com/in/savwiley/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-472ca8.svg?style=for-the-badge&logo=linkedin&logoColor=ffffff"/></a>
+
+## Credits
+
+My portfolio site was made using [ReactJS ^17.0.2](https://reactjs.org/).
+
+Alt-text boxes edited with [React-Tooltip ^4.2.21](https://www.npmjs.com/package/react-tooltip).
+
+Icons are from [Simple Icons ^5.4.0](https://simpleicons.org/), [DOMPurify ^2.2.9](https://www.npmjs.com/package/dompurify) & [FontAwesome ^0.1.14](https://fontawesome.com/).
+
+'Escheresque Dark' background from [Transparent Textures](https://www.transparenttextures.com/).
+
+'Fredericka the Great' & 'Oswald' fonts from [Google Fonts](https://fonts.google.com/).
+
+Code formatted with [Prettier ^2.3.2](https://prettier.io/).
