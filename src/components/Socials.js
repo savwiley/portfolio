@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCodepen, faTwitter, faWordpress, faGithub, faLinkedin, faGithubAlt } from "@fortawesome/free-brands-svg-icons";
-import { faCoffee, faArchive } from "@fortawesome/free-solid-svg-icons";
+import { faCoffee, faBirthdayCake } from "@fortawesome/free-solid-svg-icons";
 
 const Socials = () => {
 
@@ -18,7 +18,7 @@ const Socials = () => {
           <FontAwesomeIcon icon={faTwitter} />
         </a>
         <a href="https://killthecake.dreamwidth.org/" data-tip="Dreamwidth" alt="Dreamwidth">
-          <FontAwesomeIcon icon={faArchive} />
+          <FontAwesomeIcon icon={faBirthdayCake} />
         </a>
         <a href="https://ergosumwriting.wordpress.com/" data-tip="WordPress" alt="WordPress">
           <FontAwesomeIcon icon={faWordpress} />
