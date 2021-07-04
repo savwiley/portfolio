@@ -41,11 +41,3 @@ const Socials = () => {
 }
 
 export default Socials;
-
-/**SOCIALS
- * codepen
- * kofi
- * twitter
- * dreamwidth
- * github
- * https://ergosumwriting.wordpress.com/ */
