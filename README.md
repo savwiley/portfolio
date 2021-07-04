@@ -1,6 +1,6 @@
 # Welcome to My Portfolio! :wave:
 
-If you're here, then you're probably interested in learning more about me & the codes I've written. To go straight to my portfolio's website, please click [here](URL).
+If you're here, then you're probably interested in learning more about me & the codes I've written. To go straight to my portfolio's website, please click [here](https://portfolio-d1ed3.web.app/).
 
 Otherwise, you can always have a look around the README!
 
@@ -91,7 +91,7 @@ At present, I'm extremely excited to start a full-blown career utilizing what wa
 
 ## Credits
 
-My portfolio site was made using [ReactJS ^17.0.2](https://reactjs.org/) & [THE HOST](URL).
+My portfolio site was made using [ReactJS ^17.0.2](https://reactjs.org/) & [Firebase](https://firebase.google.com/).
 
 Alt-text boxes edited with [React-Tooltip ^4.2.21](https://www.npmjs.com/package/react-tooltip).
 
