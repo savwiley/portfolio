@@ -8,7 +8,6 @@ const Header = () => {
   useEffect(() => {
     const profession = document.querySelector("#webD");
     profession.textContent = "web developer";
-    //consider changing to case/switch
     const change = () => {
       let content = profession.textContent;
       if (content === "web developer") {
@@ -21,7 +20,7 @@ const Header = () => {
         profession.textContent = "web developer";
       }
     };
-    setInterval(change, 1000);
+    setInterval(change, 2000);
   });
 
   //mountains move
