@@ -34,9 +34,9 @@ function App() {
         place="bottom"
       />
 
-      <NavBar />
-
       <Header />
+
+      <NavBar />
 
       <div className="blurb">
         <div id="piece">
@@ -64,8 +64,3 @@ function App() {
 }
 
 export default App;
-
-
-/**
- * - consider hosting on firebase instead of heroku
- */
