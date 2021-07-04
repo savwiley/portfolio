@@ -11,7 +11,7 @@
 
   --background: url("https://www.transparenttextures.com/patterns/rocky-wall.png")
       fixed,
-    radial-gradient(at center, var(--ltSea), var(--dkSea));
+    radial-gradient(at center, var(--mdSea), var(--dkSea));
 }
 
 * {
@@ -70,45 +70,38 @@
   height: 100vh;
   position: relative;
   background: var(--background);
+  overflow: hidden;
   z-index: 0;
 }
 
-.cloud {
-  width: 350px;
-  height: 120px;
-  background: var(--ltrSea);
+.spike {
+  width: 0;
+  height: 0;
+  background: transparent;
   position: absolute;
-  border-radius: 100px;
-  z-index: 4;
+  bottom: 0;
+  left: 100px;
+  border: 350px solid transparent;
+  border-bottom: 350px solid #024b3f;
+  filter: blur(3px);
 }
-.left {
-  top: 15%;
-  box-shadow: -5px 10px rgba(0,0,0,0.2);
+.spone {
+  left: -350px;
+  border: 500px solid transparent;
+  border-bottom: 500px solid #016151;
+  filter: blur(2px);
 }
-.right {
-  right: 0;
-  top: 70%;
-  box-shadow: 5px 10px rgba(0,0,0,0.2);
+.sptwo {
+  left: 300px;
+  border: 400px solid transparent;
+  border-bottom: 400px solid #015748;
+  filter: blur(2px);
 }
-.cloud::after, .cloud::before{
-  content: "";
-  position:relative;
-  display: inline-block;
-  background: inherit;
-  border-radius: inherit;
-  z-index: 4;
-}
-.cloud::after{
-  width: 100px;
-  height: 100px;
-  top: -120px;
-  left: -100px;
-}
-.cloud::before{
-  width: 180px;
-  height: 180px;
-  top: -70px;
-  left: 130px;
+.spthree {
+  left: 550px;
+  border: 600px solid transparent;
+  border-bottom: 600px solid #016b59;
+  filter: blur(1px);
 }
 
 .headerInner {
@@ -221,7 +214,7 @@
   width: 35vw;
   margin: 0 auto 10px;
   font-family: var(--header);
-  text-shadow: 2px 2px 0px #000;
+  text-shadow: 1px 1px 0px #000, 2px 2px 0px #000;
   font-size: 40px;
   border-bottom: 1px dashed;
   cursor: default;
@@ -351,7 +344,7 @@ svg {
   color: #fff;
   font-family: var(--header);
   font-size: 35px;
-  text-shadow: 1px 1px 0px #000;
+  text-shadow: 1px 1px 0px #000, 2px 2px 0px #000;
   border-bottom: 1px dashed;
   width: 60%;
   margin: 0 auto 10px;
@@ -474,7 +467,7 @@ svg {
 h1 {
   font-family: var(--header);
   font-weight: normal;
-  text-shadow: 2px 2px 0px #000;
+  text-shadow: 1px 1px 0px #000, 2px 2px 0px #000;
 }
 .exBlurb span {
   font-size: 15px;
@@ -493,7 +486,7 @@ h1 {
 
 #socials {
   text-align: center;
-  padding: 20px 0;
+  padding: 20px 0 10px;
   font-size: 50px;
   box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.8), 0px -3px 4px rgba(0, 0, 0, 0.8);
   position: relative;
@@ -502,6 +495,7 @@ h1 {
 
 #socials a {
   margin-left: 5%;
+  height: fit-content;
   color: var(--dkSea);
   transition: all 0.5s;
 }
@@ -544,11 +538,27 @@ h1 {
   .desc {
     order: 2;
   }
+  .spzero{
+    border: 150px solid transparent;
+    border-bottom: 150px solid #024b3f;
+  }
+  .spone {
+    border: 300px solid transparent;
+    border-bottom: 300px solid #016151;
+  }
+  .sptwo {
+    border: 280px solid transparent;
+    border-bottom: 280px solid #015748;
+  }
+  .spthree {
+    border: 400px solid transparent;
+    border-bottom: 400px solid #016b59;
+  }
 }
 
 @media (max-width: 680px) {
   .navigation a {
-    font-size: 4vw;
+    font-size: 3vw;
   }
   #name {
     margin-bottom: 0;

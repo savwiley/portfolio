@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
+
   //profession title changes
   useEffect(() => {
     const profession = document.querySelector("#webD");
@@ -23,11 +24,29 @@ const Header = () => {
     setInterval(change, 1000);
   });
 
+  //mountains move
+  useEffect(() => {
+    //selectors
+    const zero = document.querySelector(".spzero");
+    const one = document.querySelector(".spone");
+    const two = document.querySelector(".sptwo");
+    const three = document.querySelector(".spthree");
+
+    window.addEventListener("scroll", () => {
+      zero.style.left = `${-(window.pageYOffset) + 100}px`;
+      one.style.left = `${-(window.pageYOffset) + -350}px`;
+      two.style.left = `${window.pageYOffset + 300}px`;
+      three.style.left = `${window.pageYOffset + 550}px`;
+    })
+  })
+
   return (
     <div className="header interactive" id="top">
 
-      <div className="cloud left" />
-      <div className="cloud right" />
+      <div className="spike spzero" />
+      <div className="spike sptwo" />
+      <div className="spike spone" />
+      <div className="spike spthree" />
 
       <div className="headerInner">
         <div id="name">Savannaha Wiley</div>
