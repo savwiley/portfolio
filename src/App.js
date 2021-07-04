@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function App() {
-  console.log("This site was made with ReactJS & is hosted with Heroku. You can find all of the files at:");
+  console.log("This site was made with ReactJS & is hosted with Firebase. You can find all of the files at:");
   console.log("https://github.com/savwiley/portfolio");
   console.log("(っ ᵔ︠ ▿ ︡ᵔ)っ🎔 Thanks for visiting!");
 
