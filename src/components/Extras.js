@@ -77,7 +77,3 @@ const Extras = () => {
 };
 
 export default Extras;
-
-/**
- * should i put more info in a data-tip?
- */
