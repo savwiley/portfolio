@@ -21,7 +21,7 @@ function App() {
       e.addEventListener("mousemove", (i) => {
         const X = (i.clientX / window.innerWidth) * 100;
         const Y = (i.clientY / window.innerHeight) * 100;
-        e.style.background = `url("https://www.transparenttextures.com/patterns/rocky-wall.png") fixed, radial-gradient(at ${X}% ${Y}%, #0ec7a8, #036656)`;
+        e.style.background = `url("https://www.transparenttextures.com/patterns/rocky-wall.png") fixed, radial-gradient(at ${X}% ${Y}%, #018f77, #036656)`;
       });
     });
   });
