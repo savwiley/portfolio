@@ -103,4 +103,6 @@ Icons are from [Simple Icons ^5.4.0](https://simpleicons.org/), [DOMPurify ^2.2.
 
 Code formatted with [Prettier ^2.3.2](https://prettier.io/).
 
+Favicon made with [Favicon.io](https://favicon.io/).
+
 README buttons from [Shields.io](https://shields.io/).
