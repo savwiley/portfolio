@@ -19,8 +19,11 @@ const Extras = () => {
           </div>
           <div className="exBlurb">
             <h1>MA in English</h1>
-            <span>BA - Louisiana State University of Alexandria<br />
-            MA - Southern New Hampshire University</span>
+            <span>
+              BA - Louisiana State University of Alexandria
+              <br />
+              MA - Southern New Hampshire University
+            </span>
           </div>
         </div>
         <div>
@@ -29,7 +32,9 @@ const Extras = () => {
           </div>
           <div className="exBlurb">
             <h1>Free CSS</h1>
-            <span>My oddly named <a href="https://killthecake.dreamwidth.org/">Dreamwidth community</a> housing a library of CSS works for free use, from blog layouts to image displays.</span>
+            <span>
+              My oddly named <a href="https://killthecake.dreamwidth.org/">Dreamwidth community</a>, housing a library of CSS works for free use, from blog layouts to image displays.
+            </span>
           </div>
         </div>
         <div>
@@ -50,7 +55,9 @@ const Extras = () => {
           </div>
           <div className="exBlurb">
             <h1>Self-Taught</h1>
-            <span>Followed my passion for coding with <a href="https://www.theodinproject.com/dashboard">The Odin Project</a>, where I learned JavaScript & much more.</span>
+            <span>
+              Followed my passion for coding with <a href="https://www.theodinproject.com/dashboard">The Odin Project</a>, where I learned JavaScript & much more.
+            </span>
           </div>
         </div>
         <div>
@@ -59,7 +66,9 @@ const Extras = () => {
           </div>
           <div className="exBlurb">
             <h1>Charity Drives</h1>
-            <span>Hosted a fundraiser where I traded my coding skills for charity. All proceeds went to the <a href="https://blackaids.org/">Black AIDS Institute</a>.</span>
+            <span>
+              Hosted a fundraiser where I traded my coding skills for charity. All proceeds went to the <a href="https://blackaids.org/">Black AIDS Institute</a>.
+            </span>
           </div>
         </div>
         <div>
@@ -68,7 +77,9 @@ const Extras = () => {
           </div>
           <div className="exBlurb">
             <h1>Written Works</h1>
-            <span>My writings have gone to literary journals, newspapers, unpublished novels, & help to new writers.</span>
+            <span>
+              My writing journey has included literary journals, newspapers, unpublished novels, & offerings of help to new writers.
+            </span>
           </div>
         </div>
       </div>

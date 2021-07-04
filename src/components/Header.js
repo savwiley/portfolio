@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
-
   //profession title changes
   useEffect(() => {
     const profession = document.querySelector("#webD");
@@ -32,16 +31,15 @@ const Header = () => {
     const three = document.querySelector(".spthree");
 
     window.addEventListener("scroll", () => {
-      zero.style.left = `${-(window.pageYOffset) + 100}px`;
-      one.style.left = `${-(window.pageYOffset) + -350}px`;
+      zero.style.left = `${-window.pageYOffset + 100}px`;
+      one.style.left = `${-window.pageYOffset + -350}px`;
       two.style.left = `${window.pageYOffset + 300}px`;
       three.style.left = `${window.pageYOffset + 550}px`;
-    })
-  })
+    });
+  });
 
   return (
     <div className="header interactive" id="top">
-
       <div className="spike spzero" />
       <div className="spike sptwo" />
       <div className="spike spone" />

@@ -9,8 +9,7 @@
   --mdSea: #018f77;
   --dkSea: #036656;
 
-  --background: url("../images/rocky-wall.png")
-      fixed,
+  --background: url("../images/rocky-wall.png") fixed,
     radial-gradient(at center, var(--mdSea), var(--dkSea));
 }
 
@@ -39,7 +38,7 @@
   backdrop-filter: blur(1px);
   display: flex;
   justify-content: flex-end;
-  box-shadow: 0px 3px 3px rgba(0,0,0,0.2), 0px -3px 4px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2), 0px -3px 4px rgba(0, 0, 0, 0.8);
   position: sticky;
   top: 0;
   left: 0;
@@ -58,7 +57,7 @@
   font-family: var(--header);
   padding: 5px 0 8px;
   letter-spacing: 1px;
-  text-shadow: 1px 1px 0px rgba(0,0,0,0.4);
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4);
   transition: all 0.2s;
 }
 .navigation a:hover {
@@ -119,7 +118,8 @@
   font-size: 8vw;
   font-family: var(--header);
   color: #fff;
-  text-shadow: 1px 1px 0px #000, 2px 2px 0px #000, 3px 3px 0px #000, 4px 4px 0px #000;
+  text-shadow: 1px 1px 0px #000, 2px 2px 0px #000, 3px 3px 0px #000,
+    4px 4px 0px #000;
   margin-bottom: -20px;
   transform: rotate(-5deg);
 }
@@ -238,68 +238,68 @@ svg {
 }
 #html,
 .html {
-  fill: #E34F26;
+  fill: #e34f26;
 }
 #css,
 .css {
-  fill: #1572B6;
+  fill: #1572b6;
 }
 #js,
 .js {
-  fill: #F7DF1E;
+  fill: #f7df1e;
 }
 #php {
-  fill: #777BB4;
+  fill: #777bb4;
 }
 #webpack,
 .webpack {
-  fill: #8DD6F9;
+  fill: #8dd6f9;
 }
 #react,
 .react {
-  fill: #61DAFB;
+  fill: #61dafb;
 }
 #reactroute,
 .reactroute {
-  fill: #CA4245;
+  fill: #ca4245;
 }
 #firebase,
 .firebase {
-  fill: #FFCA28;
+  fill: #ffca28;
 }
 #heroku {
   fill: #430098;
 }
 #vscode,
 .vscode {
-  fill: #007ACC;
+  fill: #007acc;
 }
 #npm,
 .npm {
-  fill: #CB3837;
+  fill: #cb3837;
 }
 #yarn {
-  fill: #2C8EBB;
+  fill: #2c8ebb;
 }
 #git,
 .git {
-  fill: #F05032;
+  fill: #f05032;
 }
 #jasmine {
-  fill: #8A4182;
+  fill: #8a4182;
 }
 #jest,
 .jest {
-  fill: #C21325;
+  fill: #c21325;
 }
 #prettier {
-  fill: #F7B93E;
+  fill: #f7b93e;
 }
 #eslint {
-  fill: #4B32C3;
+  fill: #4b32c3;
 }
 #babel {
-  fill: #F9DC3E;
+  fill: #f9dc3e;
 }
 #node {
   fill: #339933;
@@ -395,34 +395,40 @@ svg {
   background: center/cover url("../images/waldo.png");
 }
 .waldo:hover > .pic {
-  background: center/cover url("../images/waldo.gif"), center/cover url("../images/waldo.png");
+  background: center/cover url("../images/waldo.gif"),
+    center/cover url("../images/waldo.png");
 }
 .battleship:hover > .pic {
-  background: center/cover url("../images/battleship.gif"), center/cover url("../images/battleship.png");
+  background: center/cover url("../images/battleship.gif"),
+    center/cover url("../images/battleship.png");
 }
 .battleship > .pic {
   background: center/cover url("../images/battleship.png");
 }
 .cart:hover > .pic {
-  background: center/cover url("../images/shoppingCart.gif"), center/cover url("../images/shopping.png");
+  background: center/cover url("../images/shoppingCart.gif"),
+    center/cover url("../images/shopping.png");
 }
 .cart > .pic {
   background: center/cover url("../images/shopping.png");
 }
 .memory:hover > .pic {
-  background: center/cover url("../images/memCard.gif"), center/cover url("../images/memory.png");
+  background: center/cover url("../images/memCard.gif"),
+    center/cover url("../images/memory.png");
 }
 .memory > .pic {
   background: center/cover url("../images/memory.png");
 }
 .library:hover > .pic {
-  background: center/cover url("../images/library.gif"), center/cover url("../images/library.png");
+  background: center/cover url("../images/library.gif"),
+    center/cover url("../images/library.png");
 }
 .library > .pic {
   background: center/cover url("../images/library.png");
 }
 .weather:hover > .pic {
-  background: center/cover url("../images/weather.gif"), center/cover url("../images/weather.png");
+  background: center/cover url("../images/weather.gif"),
+    center/cover url("../images/weather.png");
 }
 .weather > .pic {
   background: center/cover url("../images/weather.png");
@@ -529,7 +535,8 @@ h1 {
   .proj {
     flex-direction: column;
   }
-  .pic, .desc {
+  .pic,
+  .desc {
     width: 100%;
   }
   .pic {
@@ -539,7 +546,7 @@ h1 {
   .desc {
     order: 2;
   }
-  .spzero{
+  .spzero {
     border: 150px solid transparent;
     border-bottom: 150px solid #024b3f;
   }

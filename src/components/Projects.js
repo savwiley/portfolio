@@ -13,11 +13,19 @@ const Projects = () => {
   return (
     <div className="projects">
       <div className="proj waldo">
-        <div className="pic" alt="GIF of Where's Waldo-esque game featuring various pop culture characters."></div>
+        <div
+          className="pic"
+          alt="GIF of Where's Waldo-esque game featuring various pop culture characters."
+        ></div>
         <div className="desc">
           <div>Where's Waldo?</div>
           <div>
-            This app was made with ReactJS, React-Router, & Firebase. It was one of the first I created using Firebase, and so I learned how to use Firebase, Firestore, & other Firebase features. The app includes three difficulty settings, a high scores table based on time taken to find all the characters, and the option to submit your score anonymously (by assigning you a random Pokémon name). It also shows the most recent scores in each difficulty setting. The artwork used in this app was created by <a href="https://www.artstation.com/chekavo" alt="Egor Klyuchnyk artwork">Egor Klyuchnyk</a>.
+            This app was made with ReactJS, React-Router, & Firebase. It was one of the first I created using Firebase, and so I learned how to use it, Firestore, & other Firebase features. The app includes three difficulty settings, a high scores table based on time taken to find all the characters, and the option to submit your score anonymously (by assigning you a random Pokémon name). It also shows the most recent scores in each difficulty setting. The artwork used in this app was created by <a
+              href="https://www.artstation.com/chekavo"
+              alt="Egor Klyuchnyk artwork"
+            >
+              Egor Klyuchnyk
+            </a>.
           </div>
           <div>
             <span
@@ -54,8 +62,12 @@ const Projects = () => {
             />
           </div>
           <div>
-            <a href="https://github.com/savwiley/waldo" alt="GitHub Repo">GitHub</a>
-            <a href="https://waldo-9e96c.web.app/" alt="Preview Where's Waldo?">Live Preview</a>
+            <a href="https://github.com/savwiley/waldo" alt="GitHub Repo">
+              GitHub
+            </a>
+            <a href="https://waldo-9e96c.web.app/" alt="Preview Where's Waldo?">
+              Live Preview
+            </a>
           </div>
         </div>
       </div>
@@ -101,15 +113,28 @@ const Projects = () => {
             />
           </div>
           <div>
-            <a href="https://github.com/savwiley/battleship" alt="GitHub Repo">GitHub</a>
-            <a href="https://savwiley.github.io/battleship/" alt="Preview Battleship">Live Preview</a>
+            <a href="https://github.com/savwiley/battleship" alt="GitHub Repo">
+              GitHub
+            </a>
+            <a
+              href="https://savwiley.github.io/battleship/"
+              alt="Preview Battleship"
+            >
+              Live Preview
+            </a>
           </div>
         </div>
-        <div className="pic" alt="GIF of a Battleship game showcasing placement of ships & battle against an AI opponent."></div>
+        <div
+          className="pic"
+          alt="GIF of a Battleship game showcasing placement of ships & battle against an AI opponent."
+        ></div>
       </div>
 
       <div className="proj cart">
-        <div className="pic" alt="GIF of a fake retail site featuring a filter of product categories, individual item pages, and an interactive cart."></div>
+        <div
+          className="pic"
+          alt="GIF of a fake retail site featuring a filter of product categories, individual item pages, and an interactive cart."
+        ></div>
         <div className="desc">
           <div>Mock Retail Site</div>
           <div>
@@ -142,8 +167,18 @@ const Projects = () => {
             />
           </div>
           <div>
-            <a href="https://github.com/savwiley/shopping-cart" alt="GitHub Repo">GitHub</a>
-            <a href="https://savwiley.github.io/shopping-cart/" alt="Preview Mock Retail Site">Live Preview</a>
+            <a
+              href="https://github.com/savwiley/shopping-cart"
+              alt="GitHub Repo"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://savwiley.github.io/shopping-cart/"
+              alt="Preview Mock Retail Site"
+            >
+              Live Preview
+            </a>
           </div>
         </div>
       </div>
@@ -152,7 +187,7 @@ const Projects = () => {
         <div className="desc">
           <div>Memory Game</div>
           <div>
-            The memory game was made with React & was one of the first projects I ever used React on. It taught me how to use custom hooks & object arrays with React. In this game, the user clicks on images they haven't clicked on before, forcing them to remember 15 different images. The game features various Marvel Cinematic Universe posters. If a character loses, their score (if higher than their previous scores) is set as their high score. If they can get through all 15 images, they win.
+            The memory game was made with React & was one of the first projects I ever used it on. This game taught me how to use custom hooks & object arrays with React. Here, the user clicks on images they haven't clicked on before, forcing them to remember 15 different images. The images I chose were various Marvel Cinematic Universe posters. If a user loses, their score (if higher than their previous scores) is set as their high score. If they can get through all 15 images, they win.
           </div>
           <div>
             <span
@@ -173,15 +208,28 @@ const Projects = () => {
             />
           </div>
           <div>
-            <a href="https://github.com/savwiley/memoryCard" alt="GitHub Repo">GitHub</a>
-            <a href="https://savwiley.github.io/memoryCard/" alt="Preview Memory Game">Live Preview</a>
+            <a href="https://github.com/savwiley/memoryCard" alt="GitHub Repo">
+              GitHub
+            </a>
+            <a
+              href="https://savwiley.github.io/memoryCard/"
+              alt="Preview Memory Game"
+            >
+              Live Preview
+            </a>
           </div>
         </div>
-        <div className="pic" alt="GIF of a MCU poster selecting game with a high score system."></div>
+        <div
+          className="pic"
+          alt="GIF of a MCU poster selecting game with a high score system."
+        ></div>
       </div>
 
       <div className="proj library">
-        <div className="pic" alt="GIF of a universal library featuring user input & community interaction."></div>
+        <div
+          className="pic"
+          alt="GIF of a universal library featuring user input & community interaction."
+        ></div>
         <div className="desc">
           <div>The Library</div>
           <div>
@@ -214,8 +262,16 @@ const Projects = () => {
             />
           </div>
           <div>
-            <a href="https://github.com/savwiley/libraryProject" alt="GitHub Repo">GitHub</a>
-            <a href="https://savwiley.github.io/libraryProject/dist/" alt="Preview the Library">
+            <a
+              href="https://github.com/savwiley/libraryProject"
+              alt="GitHub Repo"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://savwiley.github.io/libraryProject/dist/"
+              alt="Preview the Library"
+            >
               Live Preview
             </a>
           </div>
@@ -247,14 +303,26 @@ const Projects = () => {
             />
           </div>
           <div>
-            <a href="https://github.com/savwiley/weather" alt="GitHub Repo">GitHub</a>
-            <a href="https://savwiley.github.io/weather/dist/" alt="Preview Weather App">Live Preview</a>
+            <a href="https://github.com/savwiley/weather" alt="GitHub Repo">
+              GitHub
+            </a>
+            <a
+              href="https://savwiley.github.io/weather/dist/"
+              alt="Preview Weather App"
+            >
+              Live Preview
+            </a>
           </div>
         </div>
-        <div className="pic" alt="GIF of a working weather app featuring user input to any location, accurate temperatures, weather reports, & icons of predicted weather."></div>
+        <div
+          className="pic"
+          alt="GIF of a working weather app featuring user input to any location, accurate temperatures, weather reports, & icons of predicted weather."
+        ></div>
       </div>
     </div>
   );
 };
 
 export default Projects;
+
+// PROOFREAD starting at library
