@@ -9,7 +9,7 @@
   --mdSea: #018f77;
   --dkSea: #036656;
 
-  --background: url("https://www.transparenttextures.com/patterns/rocky-wall.png")
+  --background: url("../images/rocky-wall.png")
       fixed,
     radial-gradient(at center, var(--mdSea), var(--dkSea));
 }
@@ -395,34 +395,34 @@ svg {
   background: center/cover url("../images/waldo.png");
 }
 .waldo:hover > .pic {
-  background: center/cover url("../images/waldo.gif");
+  background: center/cover url("../images/waldo.gif"), center/cover url("../images/waldo.png");
 }
 .battleship:hover > .pic {
-  background: center/cover url("../images/battleship.gif");
+  background: center/cover url("../images/battleship.gif"), center/cover url("../images/battleship.png");
 }
 .battleship > .pic {
   background: center/cover url("../images/battleship.png");
 }
 .cart:hover > .pic {
-  background: center/cover url("../images/shoppingCart.gif");
+  background: center/cover url("../images/shoppingCart.gif"), center/cover url("../images/shopping.png");
 }
 .cart > .pic {
   background: center/cover url("../images/shopping.png");
 }
 .memory:hover > .pic {
-  background: center/cover url("../images/memCard.gif");
+  background: center/cover url("../images/memCard.gif"), center/cover url("../images/memory.png");
 }
 .memory > .pic {
   background: center/cover url("../images/memory.png");
 }
 .library:hover > .pic {
-  background: center/cover url("../images/library.gif");
+  background: center/cover url("../images/library.gif"), center/cover url("../images/library.png");
 }
 .library > .pic {
   background: center/cover url("../images/library.png");
 }
 .weather:hover > .pic {
-  background: center/cover url("../images/weather.gif");
+  background: center/cover url("../images/weather.gif"), center/cover url("../images/weather.png");
 }
 .weather > .pic {
   background: center/cover url("../images/weather.png");
