@@ -324,5 +324,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-// PROOFREAD starting at library
