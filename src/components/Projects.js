@@ -11,7 +11,7 @@ const Projects = () => {
   const jestIcon = useRef(simpleIcons.Get("jest").svg);
 
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <div className="proj waldo">
         <div
           className="pic"
