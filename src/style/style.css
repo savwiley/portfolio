@@ -64,6 +64,21 @@
   color: var(--dkSea);
 }
 
+#up {
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
+  font-size: 40px;
+  z-index: 20;
+}
+#up a {
+  color: rgb(14, 199, 168, 0.8);
+  transition: all 0.5s;
+}
+#up a:hover {
+  color: var(--ltSea);
+}
+
 /* HEADER */
 
 .header {
@@ -546,7 +561,8 @@ h1 {
   text-shadow: 1px 1px 0 #000, 2px 2px 0 #000;
   cursor: default;
 }
-input, textarea {
+input,
+textarea {
   outline: none;
   padding: 5px;
   border: none;
@@ -554,7 +570,7 @@ input, textarea {
   border-radius: 5px;
   margin-bottom: 10px;
 }
-input[type=submit] {
+input[type="submit"] {
   width: 100px;
   align-self: flex-end;
   cursor: pointer;
@@ -562,7 +578,7 @@ input[type=submit] {
   font-weight: bold;
   transition: all 0.5s ease-in-out;
 }
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background: var(--dkSea);
   color: #fff;
   box-shadow: 0px 0px 8px #000;
@@ -608,7 +624,7 @@ input[type=submit]:hover {
 
 @media (max-width: 680px) {
   .navigation a {
-    font-size: 3vw;
+    font-size: 4vw;
   }
   #name {
     margin-bottom: 0;
