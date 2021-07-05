@@ -1,43 +1,66 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCodepen, faTwitter, faWordpress, faGithub, faLinkedin, faGithubAlt } from "@fortawesome/free-brands-svg-icons";
-import { faCoffee, faBirthdayCake } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCodepen,
+  faTwitter,
+  faWordpress,
+  faGithub,
+  faLinkedin,
+  faGithubAlt,
+} from "@fortawesome/free-brands-svg-icons";
+import { faBirthdayCake } from "@fortawesome/free-solid-svg-icons";
 
 const Socials = () => {
-
-  return(
+  return (
     <>
       <div id="socials">
         <a href="https://codepen.io/savwiley" data-tip="CodePen" alt="CodePen">
           <FontAwesomeIcon icon={faCodepen} />
         </a>
-        <a href="https://ko-fi.com/linatrinch" data-tip="Ko-fi" alt="Ko-fi">
-          <FontAwesomeIcon icon={faCoffee} />
-        </a>
-        <a href="https://twitter.com/sav_swiley" data-tip="Twitter" alt="Twitter">
+        <a
+          href="https://twitter.com/sav_swiley"
+          data-tip="Twitter"
+          alt="Twitter"
+        >
           <FontAwesomeIcon icon={faTwitter} />
         </a>
-        <a href="https://killthecake.dreamwidth.org/" data-tip="Dreamwidth" alt="Dreamwidth">
+        <a
+          href="https://killthecake.dreamwidth.org/"
+          data-tip="Dreamwidth"
+          alt="Dreamwidth"
+        >
           <FontAwesomeIcon icon={faBirthdayCake} />
         </a>
-        <a href="https://ergosumwriting.wordpress.com/" data-tip="WordPress" alt="WordPress">
+        <a
+          href="https://ergosumwriting.wordpress.com/"
+          data-tip="WordPress"
+          alt="WordPress"
+        >
           <FontAwesomeIcon icon={faWordpress} />
         </a>
         <a href="https://github.com/savwiley" data-tip="GitHub" alt="GitHub">
           <FontAwesomeIcon icon={faGithub} />
         </a>
-        <a href="https://www.linkedin.com/in/savwiley/" data-tip="LinkedIn" alt="LinkedIn">
+        <a
+          href="https://www.linkedin.com/in/savwiley/"
+          data-tip="LinkedIn"
+          alt="LinkedIn"
+        >
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
       </div>
 
       <div id="footer">
-        <a href="https://github.com/savwiley/portfolio" data-tip="See the Code That Built This Site" alt="See the Code That Built This Site">
+        <a
+          href="https://github.com/savwiley/portfolio"
+          data-tip="See the Code That Built This Site"
+          alt="See the Code That Built This Site"
+        >
           <FontAwesomeIcon icon={faGithubAlt} />
         </a>
       </div>
     </>
-  )
-}
+  );
+};
 
 export default Socials;
