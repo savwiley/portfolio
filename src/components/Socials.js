@@ -6,7 +6,6 @@ import {
   faWordpress,
   faGithub,
   faLinkedin,
-  faGithubAlt,
 } from "@fortawesome/free-brands-svg-icons";
 import { faBirthdayCake } from "@fortawesome/free-solid-svg-icons";
 
@@ -47,16 +46,6 @@ const Socials = () => {
           alt="LinkedIn"
         >
           <FontAwesomeIcon icon={faLinkedin} />
-        </a>
-      </div>
-
-      <div id="footer">
-        <a
-          href="https://github.com/savwiley/portfolio"
-          data-tip="See the Code That Built This Site"
-          alt="See the Code That Built This Site"
-        >
-          <FontAwesomeIcon icon={faGithubAlt} />
         </a>
       </div>
     </>
