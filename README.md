@@ -1,6 +1,6 @@
 # Welcome to My Portfolio! :wave:
 
-If you're here, then you're probably interested in learning more about me & the codes I've written. To go straight to my portfolio's website, please click [here](https://portfolio-d1ed3.web.app/).
+If you're here, then you're probably interested in learning more about me & the codes I've written. To go straight to my portfolio's website, please click [here](https://savwiley.com/).
 
 Otherwise, you can always have a look around the README!
 
