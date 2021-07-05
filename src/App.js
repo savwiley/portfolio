@@ -6,6 +6,7 @@ import Languages from "./components/Languages.js";
 import Projects from "./components/Projects.js";
 import Extras from "./components/Extras.js";
 import Socials from "./components/Socials.js";
+import Footer from "./components/Footer.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
@@ -63,8 +64,22 @@ function App() {
       <Extras />
 
       <Socials />
+
+      <Footer />
     </>
   );
 }
 
 export default App;
+
+
+/**
+ * ideas from Scarce Xrul
+ * 
+ * - contact form at bottom to send me an email directly from my site
+ * - back btn at bottom of page
+ * - hamburger menu on mobile
+ * - change about/contact link
+ * x change 80 to 50 on blurb
+ * x remove ko-fi
+ */
