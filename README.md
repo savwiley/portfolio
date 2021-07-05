@@ -93,16 +93,18 @@ At present, I'm extremely excited to start a full-blown career utilizing what wa
 
 My portfolio site was made using [ReactJS ^17.0.2](https://reactjs.org/) & [Firebase](https://firebase.google.com/).
 
+Contact form made with [EmailJS-com ^3.1.0](https://www.emailjs.com/).
+
 Alt-text boxes edited with [React-Tooltip ^4.2.21](https://www.npmjs.com/package/react-tooltip).
 
-Icons are from [Simple Icons ^5.4.0](https://simpleicons.org/), [DOMPurify ^2.2.9](https://www.npmjs.com/package/dompurify) & [FontAwesome ^0.1.14](https://fontawesome.com/).
+Icons are from [Simple Icons ^5.4.0](https://simpleicons.org/) & [FontAwesome ^0.1.14](https://fontawesome.com/). Simple Icons installed with [DOMPurify ^2.2.9](https://www.npmjs.com/package/dompurify).
 
-'Escheresque Dark' background from [Transparent Textures](https://www.transparenttextures.com/).
+'Rocky Wall' background from [Transparent Textures](https://www.transparenttextures.com/).
 
-'Fredericka the Great' & 'Oswald' fonts from [Google Fonts](https://fonts.google.com/).
+'Gruppo' & 'Open Sans' fonts from [Google Fonts](https://fonts.google.com/).
 
 Code formatted with [Prettier ^2.3.2](https://prettier.io/).
 
 Favicon made with [Favicon.io](https://favicon.io/).
 
-README buttons from [Shields.io](https://shields.io/).
+README buttons made with [Shields.io](https://shields.io/).
