@@ -49,7 +49,7 @@ function App() {
           As my writings became more focused <b>software & coding</b>, I got an itch to learn more, prompting me to start with CSS. Once the pandemic happened and work slowed to a grinding halt, I jumped into the coding life practically face first & haven't regretted a second of it. Right now, other than learning as many coding languages as I can, my goal is to make the career change into <b>Web Development</b>.
           <br />
           <br />
-          When I'm not coding, I enjoy playing FPS games with my mom, slogging through the entire Star Trek franchise with my best friend, playing TCGs with friends online, and informing my dog that he's a good boy. If you're interested in getting to know me better, you can check out my GitHub at the link below or look for me on <a href="#about">social media</a>. Regardless, I'm glad you stopped by!
+          When I'm not coding, I enjoy playing FPS games with my mom, slogging through the entire Star Trek franchise with my best friend, playing TCGs with friends online, and informing my dog that he's a good boy. If you're interested in getting to know me better, you can check out my GitHub at the link below, <a href="#socials">contact me</a> directly by email or social media. Regardless, I'm glad you stopped by!
         </div>
 
         <a href="https://github.com/savwiley" alt="Github" data-tip="Github">
@@ -71,15 +71,3 @@ function App() {
 }
 
 export default App;
-
-
-/**
- * ideas from Scarce Xrul
- * 
- * - contact form at bottom to send me an email directly from my site
- * - back btn at bottom of page
- * - hamburger menu on mobile
- * - change about/contact link
- * x change 80 to 50 on blurb
- * x remove ko-fi
- */
