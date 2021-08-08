@@ -22,6 +22,7 @@ const Languages = () => {
   const eslintIcon = useRef(simpleIcons.Get("eslint").svg);
   const babelIcon = useRef(simpleIcons.Get("babel").svg);
   const nodeIcon = useRef(simpleIcons.Get("nodedotjs").svg);
+  const styledIcon = useRef(simpleIcons.Get("styledcomponents").svg);
 
   return (
     <div className="languages interactive" id="languages">
@@ -89,6 +90,18 @@ const Languages = () => {
             alt="React-Router"
           />
           <div
+            id="styled"
+            data-tip="Styled-Components"
+            dangerouslySetInnerHTML={{
+              __html: DOMPurify.sanitize(styledIcon.current),
+            }}
+            alt="Styled-Components"
+          />
+        </div>
+
+        <div className="sect">Back-End</div>
+        <div className="sectDiv">
+          <div
             id="node"
             data-tip="Node.JS"
             dangerouslySetInnerHTML={{
@@ -96,10 +109,6 @@ const Languages = () => {
             }}
             alt="Node.JS"
           />
-        </div>
-
-        <div className="sect">Back-End</div>
-        <div className="sectDiv">
           <div
             id="firebase"
             data-tip="Firebase"
@@ -171,6 +180,14 @@ const Languages = () => {
             alt="Visual Studio Code"
           />
           <div
+            id="git"
+            data-tip="Git"
+            dangerouslySetInnerHTML={{
+              __html: DOMPurify.sanitize(gitIcon.current),
+            }}
+            alt="Git"
+          />
+          <div
             id="npm"
             data-tip="npm"
             dangerouslySetInnerHTML={{
@@ -193,14 +210,6 @@ const Languages = () => {
               __html: DOMPurify.sanitize(babelIcon.current),
             }}
             alt="Babel"
-          />
-          <div
-            id="git"
-            data-tip="Git"
-            dangerouslySetInnerHTML={{
-              __html: DOMPurify.sanitize(gitIcon.current),
-            }}
-            alt="Git"
           />
         </div>
       </div>
