@@ -319,7 +319,7 @@ svg {
 #node {
   fill: #339933;
 }
-#styled {
+#styled, .styled {
   fill: #DB7093;
 }
 
@@ -450,6 +450,13 @@ svg {
 }
 .weather > .pic {
   background: center/cover url("../images/weather.png");
+}
+.dinos:hover > .pic {
+  background: center/cover url("../images/dinos.gif"),
+    center/cover url("../images/dinos.png");
+}
+.dinos > .pic {
+  background: center/cover url("../images/dinos.png");
 }
 
 /* EXPERIENCE */

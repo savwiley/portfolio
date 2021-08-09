@@ -9,9 +9,68 @@ const Projects = () => {
   const reactRIcon = useRef(simpleIcons.Get("reactrouter").svg);
   const firebaseIcon = useRef(simpleIcons.Get("firebase").svg);
   const jestIcon = useRef(simpleIcons.Get("jest").svg);
+  const styledIcon = useRef(simpleIcons.Get("styledcomponents").svg);
 
   return (
     <div className="projects" id="projects">
+      <div className="proj dinos">
+        <div className="desc">
+          <div>Dino-War</div>
+          <div>
+            This game is the product of my first ever Game Jam. Through it, I gained invaluable experience of working with a team, including how to properly use branches and pull requests via Git & Github. I also learned several techniques from my teammates, such as Styled-Components, React-Icons, & just better organizational skills overall. The topic of the Game Jam was Edutainment, so we created a math game featuring dinosaurs with a target audience of 7-10 year olds. The user adds up the points on each dinosaur and discovers which side will win based on those points. With three difficulty settings, any age group can find some enjoyment in playing. The coding team comprised of myself, <a href="https://github.com/rankoliang">rankoliang</a>, & <a href="https://github.com/timjacksonm">timjacksonm</a>.
+          </div>
+          <div>
+            <span
+              className="js"
+              data-tip="JavaScript"
+              dangerouslySetInnerHTML={{
+                __html: DOMPurify.sanitize(jsIcon.current),
+              }}
+              alt="JavaScript"
+            />
+            <span
+              className="react"
+              data-tip="React"
+              dangerouslySetInnerHTML={{
+                __html: DOMPurify.sanitize(reactIcon.current),
+              }}
+              alt="React"
+            />
+            <span
+              className="reactroute"
+              data-tip="React-Router"
+              dangerouslySetInnerHTML={{
+                __html: DOMPurify.sanitize(reactRIcon.current),
+              }}
+              alt="React-Router"
+            />
+            <span
+              className="styled"
+              data-tip="Styled-Components"
+              dangerouslySetInnerHTML={{
+                __html: DOMPurify.sanitize(styledIcon.current),
+              }}
+              alt="Styled-Components"
+            />
+          </div>
+          <div>
+            <a href="https://github.com/rankoliang/Dino-War" alt="GitHub Repo">
+              GitHub
+            </a>
+            <a
+              href="https://igni-sign.itch.io/dinowar"
+              alt="Play Dino-War"
+            >
+              Live View
+            </a>
+          </div>
+        </div>
+        <div
+          className="pic"
+          alt="GIF of the first level of Dino-War being played."
+        ></div>
+      </div>
+
       <div className="proj waldo">
         <div
           className="pic"
