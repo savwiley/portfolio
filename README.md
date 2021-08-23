@@ -15,9 +15,10 @@ Otherwise, you can always have a look around the README!
 
 ### Front-End/Back-End
 
-<img alt="NodeJS" src="https://img.shields.io/badge/node.js-%2343853D.svg?style=for-the-badge&logo=nodedotjs&logoColor=white"/> <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img alt="React-Router" src="https://img.shields.io/badge/react-router-%2320232a.svg?style=for-the-badge&logo=react-router&logoColor=fc052f"/> <img alt="Webpack" src="https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black" />
+<img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img alt="React-Router" src="https://img.shields.io/badge/react-router-%2320232a.svg?style=for-the-badge&logo=react-router&logoColor=fc052f"/> <img alt="Webpack" src="https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black" /> 
+<img alt="Styled-Components" src="https://img.shields.io/badge/styled-components-db7093.svg?style=for-the-badge&logo=styledcomponents&logoColor=fff" />
 
-<img alt="Heroku" src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white"/> <img alt="Firebase" src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase"/>
+<img alt="NodeJS" src="https://img.shields.io/badge/node.js-%2343853D.svg?style=for-the-badge&logo=nodedotjs&logoColor=white"/> <img alt="Heroku" src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white"/> <img alt="Firebase" src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase"/>
 
 ### Dependencies
 
@@ -36,6 +37,10 @@ Otherwise, you can always have a look around the README!
 
 ## Some Projects I'm Proud Of
 
+- [Dino-War](https://github.com/rankoliang/Dino-War) - A basic math game created with a team between myself and two others. Users count the points on either team to come up with the difference. Made with varying difficulties.
+
+  <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img alt="React-Router" src="https://img.shields.io/badge/react-router-%2320232a.svg?style=for-the-badge&logo=react-router&logoColor=fc052f"/> <img alt="Styled-Components" src="https://img.shields.io/badge/styled-components-db7093.svg?style=for-the-badge&logo=styledcomponents&logoColor=fff" />
+
 - [Where's Waldo?](https://github.com/savwiley/waldo) - A Where's Waldo-esque game where players find different pop culture characters. Complete with varying difficulties & high score tables.
 
   <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img alt="React-Router" src="https://img.shields.io/badge/react-router-%2320232a.svg?style=for-the-badge&logo=react-router&logoColor=fc052f"/> <img alt="Firebase" src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase"/>
@@ -47,18 +52,6 @@ Otherwise, you can always have a look around the README!
 - [Mock Retail Site](https://github.com/savwiley/shopping-cart) - A fake retail website that displays products filtered by category, allows users to navigate to each product's own page, & gives options to buyers for adding a certain quantity to their shopping cart! Users can change quantities or remove items as they see fit.
 
   <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img alt="React-Router" src="https://img.shields.io/badge/react-router-%2320232a.svg?style=for-the-badge&logo=react-router&logoColor=fc052f"/>
-
-- [Memory Game](https://github.com/savwiley/memoryCard) - Play a game of memory! Select various MCU posters from the options provided but don't click on the same one twice. Pick all 15 and you win! Features a user's personal high score so they can battle against themselves.
-
-  <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
-
-- [The Library](https://github.com/savwiley/libraryProject) - A universal library for users to add their own books and save them to a server. Other users can edit the books already listed, filter through them whichever way they desire, or add their number to whatever books they've already read.
-
-  <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img alt="Webpack" src="https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black" /> <img alt="Firebase" src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase"/>
-
-- [Weather App](https://github.com/savwiley/weather) - A real weather app with all the bells and whistles (except a working radar)! Search for any major city in the world to see accurate, real-time forecasts. Predictions can be shown from the next few hours to the next few days. There's also an option to view the temperature in Fahrenheit or Celsius.
-
-  <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img alt="Webpack" src="https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black" />
 
 ## Get to Know Me
 
