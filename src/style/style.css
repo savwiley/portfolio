@@ -320,8 +320,9 @@ svg {
 #node {
   fill: #339933;
 }
-#styled, .styled {
-  fill: #DB7093;
+#styled,
+.styled {
+  fill: #db7093;
 }
 
 /* PROJECTS */
