@@ -42,8 +42,8 @@ const Extras = () => {
             <FontAwesomeIcon icon={faKeyboard} className="exIcon" />
           </div>
           <div className="exBlurb">
-            <h1>67 WPM</h1>
-            <span>Typing speed as of 07/2021</span>
+            <h1>69 WPM</h1>
+            <span>Typing speed as of 08/2021</span>
           </div>
         </div>
       </div>
