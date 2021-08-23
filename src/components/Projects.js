@@ -12,8 +12,6 @@ const Projects = () => {
 
   return (
     <div className="projects" id="projects">
-
-
       <div className="newProj dinos">
         <div className="descript">
           <div>Dino-War</div>
@@ -24,7 +22,16 @@ const Projects = () => {
           ></div>
 
           <div>
-            This game is the product of my first ever Game Jam. Through it, I gained invaluable experience of working with a team, including how to properly use branches and pull requests via Git & Github. I also learned several techniques from my teammates, such as Styled-Components, React-Icons, & just better organizational skills overall. The topic of the Game Jam was Edutainment, so we created a math game featuring dinosaurs with a target audience of 7-10 year olds. The user adds up the points on each dinosaur and discovers which side will win based on those points. With three difficulty settings, any age group can find some enjoyment in playing. The coding team comprised of myself, <a href="https://github.com/rankoliang">rankoliang</a>, & <a href="https://github.com/timjacksonm">timjacksonm</a>.
+            This game is a product of The Odin Project's first{" "}
+            <a href="https://itch.io/jam/top-jam-1">Game Jam</a>. My team and I
+            used Git & GitHub to collaborate, utilizing branches & pull
+            requests. We also worked with React-Icons & Styled-Components. Our
+            game is in the Edutainment genre and focues on teaching children
+            7-10 years of age basic math skills. However, with three difficulty
+            settings, almost anyone can find a bit of a challenge in the game.
+            The coding team comprised of myself,{" "}
+            <a href="https://github.com/rankoliang">rankoliang</a>, &{" "}
+            <a href="https://github.com/timjacksonm">timjacksonm</a>.
           </div>
           <div>
             <span
@@ -64,10 +71,7 @@ const Projects = () => {
             <a href="https://github.com/rankoliang/Dino-War" alt="GitHub Repo">
               GitHub
             </a>
-            <a
-              href="https://igni-sign.itch.io/dinowar"
-              alt="Play Dino-War"
-            >
+            <a href="https://igni-sign.itch.io/dinowar" alt="Play Dino-War">
               Live View
             </a>
           </div>
@@ -84,12 +88,21 @@ const Projects = () => {
             alt="GIF of Where's Waldo-esque game featuring various pop culture characters."
           ></div>
           <div>
-            This app was made with ReactJS, React-Router, & Firebase. It was one of the first I created using Firebase, and so I learned how to use it, Firestore, & other Firebase features. The app includes three difficulty settings, a high scores table based on time taken to find all the characters, and the option to submit your score anonymously (by assigning you a random Pokémon name). It also shows the most recent scores in each difficulty setting. The artwork used in this app was created by <a
+            This app was made with ReactJS, React-Router, & Firebase. It relies
+            heavily on Firebase's Firestore Database to store information about
+            the answers and individual users' high scores. The app includes
+            three difficulty settings, a high scores table based on time taken
+            to find all of the characters, and the option to submit a score
+            anonymously (by assigning the user a random Pokémon name). It also
+            shows the most recent scores in each difficulty setting. The artwork
+            used in this app was created by{" "}
+            <a
               href="https://www.artstation.com/chekavo"
               alt="Egor Klyuchnyk artwork"
             >
               Egor Klyuchnyk
-            </a>.
+            </a>
+            .
           </div>
           <div>
             <span
@@ -146,7 +159,14 @@ const Projects = () => {
             alt="GIF of a Battleship game showcasing placement of ships & battle against an AI opponent."
           ></div>
           <div>
-            This Battleship game was made with React & React-Router. Though it wasn't the first project I used a testing framework on, it was the first time I used Jest & integrated testing so thoroughly into a project. This app allows players to place their own ships and play against an AI. It features an info board to keep players up to date on the computer's latest move and a small wait time while the computer is "thinking" about its next move, making the opponent seem a little more real and the game more fluid.
+            This Battleship game was made with React & React-Router. The bulk of
+            the code was tested with Jest before any UI/UX was implemented to
+            ensure ship placement and behavior with user interaction. This app
+            allows players to place their own ships and play against an AI. It
+            features an info board to keep players up to date on the computer's
+            latest move and a small wait time while the computer is "thinking"
+            about its next move, making the opponent seem more real and the game
+            more fluid.
           </div>
           <div>
             <span
