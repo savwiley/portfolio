@@ -9,7 +9,7 @@
   --mdSea: #018f77;
   --dkSea: #036656;
 
-  --background: url("../images/rocky-wall.png") fixed,
+  --background: url("https://raw.githubusercontent.com/savwiley/portfolio/master/src/images/rocky-wall.png") fixed,
     radial-gradient(at center, var(--mdSea), var(--dkSea));
 }
 
@@ -344,8 +344,10 @@ svg {
 }
 
 .newProj .pic {
-  width: 400px;
-  height: 200px;
+  width: 80%;
+  max-width: 400px;
+  height: 15rem;
+  max-height: 200px;
   margin: 10px auto 20px;
   box-shadow: 0px 0px 4px #000;
 }
@@ -371,7 +373,6 @@ svg {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-content: space-between;
   margin: 15px auto 20px;
 }
 
@@ -387,6 +388,7 @@ svg {
 .descript div:nth-child(5) {
   display: flex;
   flex-direction: row;
+  align-items: center;
   width: 100%;
   text-align: center;
 }
