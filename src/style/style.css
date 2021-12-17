@@ -440,6 +440,13 @@ svg {
 .dinos .pic {
   background: center/cover url("../images/dinos.png");
 }
+.mockSite:hover .pic {
+  background: center/cover url("../images/mock.gif"),
+    center/cover url("../images/mock.png");
+}
+.mockSite .pic {
+  background: center/cover url("../images/mock.png");
+}
 
 /* EXPERIENCE */
 
