@@ -37,6 +37,10 @@ Otherwise, you can always have a look around the README!
 
 ## Some Projects I'm Proud Of
 
+- [Notagram](https://github.com/savwiley/mockSite) - A complete, working clone of Instagram. Users can create accounts, post images, interact with other users, and personalize their spaces.
+
+  <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img alt="React-Router" src="https://img.shields.io/badge/react-router-%2320232a.svg?style=for-the-badge&logo=react-router&logoColor=fc052f"/> <img alt="Styled-Components" src="https://img.shields.io/badge/styled-components-db7093.svg?style=for-the-badge&logo=styledcomponents&logoColor=fff" /> <img alt="Firebase" src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase"/>
+
 - [Dino-War](https://github.com/rankoliang/Dino-War) - A basic math game created with a team between myself and two others. Users count the points on either team to come up with the difference. Made with varying difficulties.
 
   <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img alt="React-Router" src="https://img.shields.io/badge/react-router-%2320232a.svg?style=for-the-badge&logo=react-router&logoColor=fc052f"/> <img alt="Styled-Components" src="https://img.shields.io/badge/styled-components-db7093.svg?style=for-the-badge&logo=styledcomponents&logoColor=fff" />
