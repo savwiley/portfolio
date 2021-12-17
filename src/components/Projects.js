@@ -12,6 +12,73 @@ const Projects = () => {
 
   return (
     <div className="projects" id="projects">
+      <div className="newProj mockSite">
+        <div className="descript">
+          <div>Notagram</div>
+
+          <div
+            className="pic"
+            alt="GIF of the first level of Dino-War being played."
+          ></div>
+
+          <div>
+            To showcase a full suite of skills throughout my time learning JavaScript, I created a fully working clone of the popular social media site, Instagram. In this version, users can create and personalize accounts, post images, and interact with other real users. Features include image uploading, liking and commenting posts, individual user profiles, and much more.
+          </div>
+          <div>
+            <span
+              className="js"
+              data-tip="JavaScript"
+              dangerouslySetInnerHTML={{
+                __html: DOMPurify.sanitize(jsIcon.current),
+              }}
+              alt="JavaScript"
+            />
+            <span
+              className="react"
+              data-tip="React"
+              dangerouslySetInnerHTML={{
+                __html: DOMPurify.sanitize(reactIcon.current),
+              }}
+              alt="React"
+            />
+            <span
+              className="reactroute"
+              data-tip="React-Router"
+              dangerouslySetInnerHTML={{
+                __html: DOMPurify.sanitize(reactRIcon.current),
+              }}
+              alt="React-Router"
+            />
+            <span
+              className="styled"
+              data-tip="Styled-Components"
+              dangerouslySetInnerHTML={{
+                __html: DOMPurify.sanitize(styledIcon.current),
+              }}
+              alt="Styled-Components"
+            />
+            <span
+              className="firebase"
+              data-tip="Firebase"
+              dangerouslySetInnerHTML={{
+                __html: DOMPurify.sanitize(firebaseIcon.current),
+              }}
+              alt="Firebase"
+            />
+          </div>
+          <div>
+            <a href="https://github.com/savwiley/mockSite" alt="GitHub Repo">
+              GitHub
+            </a>
+            <a href="https://mockproject-881e2.web.app/" alt="Visit Notagram">
+              Live Preview
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="break"></div>
+
       <div className="newProj dinos">
         <div className="descript">
           <div>Dino-War</div>
